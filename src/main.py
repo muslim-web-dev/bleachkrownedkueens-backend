@@ -99,6 +99,10 @@ class MatchmakingSystem:
         return room_id
 
 # REST API Endpoints
+@app.route('/')
+def welcome():
+    return "Welcome to my Flask API"
+
 @app.route('/api/stats')
 def get_stats():
     """Get platform statistics"""

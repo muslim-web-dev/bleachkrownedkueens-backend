@@ -10,8 +10,10 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 from flask import Flask, send_from_directory, request, jsonify
 from flask_socketio import SocketIO, emit, join_room, leave_room, disconnect
 from flask_cors import CORS
-from src.models.user import db
+from src.models.user import db, User
 from src.routes.user import user_bp
+from src.routes.auth import auth_bp
+from src.middleware.auth import decode_token
 
 app = Flask(__name__, static_folder=os.path.join(os.path.dirname(__file__), 'static'))
 app.config['SECRET_KEY'] = 'asdf#FGSgvasgf$5$WGT'
@@ -27,6 +29,7 @@ socketio = SocketIO(
 )
 
 app.register_blueprint(user_bp, url_prefix='/api')
+app.register_blueprint(auth_bp, url_prefix='/api/auth')
 
 # Database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite:///{os.path.join(os.path.dirname(__file__), 'database', 'app.db')}"
@@ -130,10 +133,28 @@ def report_user():
 
 # WebRTC Signaling Events
 @socketio.on('connect')
-def handle_connect():
-    """Handle user connection"""
-    print(f'User connected: {request.sid}')
-    emit('connected', {'socket_id': request.sid})
+def handle_connect(auth):
+    """Handle user connection with authentication"""
+    print(f'Socket connected: {request.sid}')
+    
+    # Try to get user from auth token
+    user_info = None
+    if auth and 'token' in auth:
+        user_info = decode_token(auth['token'])
+    
+    if user_info:
+        print(f'Authenticated user connected: {user_info["username"]}')
+        # Store authenticated user info with socket
+        connected_users[request.sid] = {
+            'socket_id': request.sid,
+            'user_id': user_info['user_id'],
+            'username': user_info['username'],
+            'authenticated': True,
+            'connected_at': datetime.now(),
+            'last_activity': datetime.now()
+        }
+    
+    emit('connected', {'socket_id': request.sid, 'authenticated': bool(user_info)})
 
 @socketio.on('disconnect')
 def handle_disconnect():
@@ -159,20 +180,32 @@ def handle_disconnect():
 @socketio.on('join_platform')
 def handle_join_platform(data):
     """Handle user joining the platform"""
-    user_id = data.get('user_id', str(uuid.uuid4()))
-    interests = data.get('interests', [])
-    
-    user_info = {
-        'socket_id': request.sid,
-        'user_id': user_id,
-        'interests': interests,
-        'status': 'online'
-    }
-    
-    UserPresenceSystem.add_user(request.sid, user_info)
+    # Check if user is already authenticated from connection
+    if request.sid in connected_users:
+        user_info = connected_users[request.sid]
+        user_info['interests'] = data.get('interests', [])
+        user_info['status'] = 'online'
+    else:
+        # Fallback for non-authenticated users
+        user_id = data.get('user_id', str(uuid.uuid4()))
+        username = data.get('username', f'Guest_{user_id[:8]}')
+        
+        user_info = {
+            'socket_id': request.sid,
+            'user_id': user_id,
+            'username': username,
+            'interests': data.get('interests', []),
+            'status': 'online',
+            'authenticated': False,
+            'connected_at': datetime.now(),
+            'last_activity': datetime.now()
+        }
+        
+        UserPresenceSystem.add_user(request.sid, user_info)
     
     emit('joined_platform', {
-        'user_id': user_id,
+        'user_id': user_info['user_id'],
+        'username': user_info.get('username'),
         'online_count': UserPresenceSystem.get_online_count()
     })
     
@@ -190,10 +223,23 @@ def handle_find_match(data):
     interests = data.get('interests', [])
     user_info['interests'] = interests
     
+    # Check if user is already in queue
+    for queued_user in waiting_queue:
+        if queued_user['socket_id'] == request.sid:
+            emit('error', {'message': 'Already searching for a match'})
+            return
+    
     # Try to find immediate match
     match = MatchmakingSystem.find_match(user_info)
     
     if match:
+        # Verify matched user is still connected
+        if match['socket_id'] not in connected_users:
+            # User disconnected, continue searching
+            waiting_queue.append(user_info)
+            emit('searching', {'message': 'Looking for a match...'})
+            return
+            
         # Create room and connect users
         room_id = MatchmakingSystem.create_room(user_info, match)
         
@@ -201,21 +247,28 @@ def handle_find_match(data):
         join_room(room_id, sid=request.sid)
         join_room(room_id, sid=match['socket_id'])
         
-        # Notify both users
+        # Notify current user (initiator = true)
         emit('match_found', {
             'room_id': room_id,
             'partner': {
                 'user_id': match['user_id'],
-                'interests': match.get('interests', [])
-            }
+                'username': match.get('username', 'Anonymous'),
+                'interests': match.get('interests', []),
+                'authenticated': match.get('authenticated', False)
+            },
+            'initiator': True  # This user creates the offer
         })
         
+        # Notify matched user (initiator = false)
         emit('match_found', {
             'room_id': room_id,
             'partner': {
                 'user_id': user_info['user_id'],
-                'interests': user_info.get('interests', [])
-            }
+                'username': user_info.get('username', 'Anonymous'),
+                'interests': user_info.get('interests', []),
+                'authenticated': user_info.get('authenticated', False)
+            },
+            'initiator': False  # This user waits for offer
         }, room=match['socket_id'])
         
     else:
@@ -286,32 +339,44 @@ def handle_send_message(data):
     """Handle chat message"""
     room_id = data.get('room_id')
     message = data.get('message')
+    username = data.get('username')
+    print(data)
     
     if room_id in active_rooms and message:
         room_info = active_rooms[room_id]
         user_info = connected_users.get(request.sid)
         
         if user_info:
+            # Get username from message data first, then from user_info, then use default
+            username = user_info.get('username', f"User{user_info.get('user_id', 'Unknown')}")
+            
+            print(f"[CHAT] User {username} (ID: {user_info['user_id']}) sending message")
+            
             message_data = {
                 'id': str(uuid.uuid4()),
                 'user_id': user_info['user_id'],
+                'username': username,
                 'message': message,
-                'timestamp': datetime.now().isoformat(),
-                'sender': 'you'
+                'timestamp': datetime.now().isoformat()
             }
+            
+            print(f"[CHAT] Message data: {message_data}")
             
             # Store message in room
             room_info['messages'].append(message_data)
             
-            # Forward to partner
+            # Send to both users with proper sender identification
+            # To sender: mark as 'you'
+            sender_message = message_data.copy()
+            sender_message['sender'] = 'you'
+            emit('message_sent', sender_message)
+            
+            # To partner: mark as 'partner' but keep the username
             partner = next((u for u in room_info['users'] if u['socket_id'] != request.sid), None)
             if partner:
                 partner_message = message_data.copy()
-                partner_message['sender'] = 'stranger'
+                partner_message['sender'] = 'partner'
                 emit('receive_message', partner_message, room=partner['socket_id'])
-            
-            # Confirm to sender
-            emit('message_sent', message_data)
 
 @socketio.on('skip_partner')
 def handle_skip_partner(data):
@@ -357,10 +422,14 @@ def handle_end_chat(data):
         
         emit('chat_ended')
 
-# Serve frontend files
+# Serve frontend files (but not API routes)
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
+    # Don't serve API routes through static file handler
+    if path.startswith('api/'):
+        return "Not Found", 404
+    
     static_folder_path = app.static_folder
     if static_folder_path is None:
         return "Static folder not configured", 404
@@ -375,5 +444,5 @@ def serve(path):
             return "index.html not found", 404
 
 if __name__ == '__main__':
-    socketio.run(app, host='0.0.0.0', port=5000, debug=True)  # local dev
+    socketio.run(app, host='0.0.0.0', port=5002, debug=True)  # local dev
 

@@ -104,7 +104,7 @@ class MatchmakingSystem:
 # REST API Endpoints
 @app.route('/')
 def welcome():
-    return "Welcome to my Flask API"
+    return "Welcome to my Flask API V0.0.1"
 
 @app.route('/api/stats')
 def get_stats():

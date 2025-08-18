@@ -1,0 +1,334 @@
+.rtl .trp-language-switcher > div {
+  background-position: left;
+  background-size: 8px 8px, 8px 8px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position-x: 9px;
+  padding-left: 26px;
+}
+
+.rtl .searchbutton {
+  top: 120px;
+  right: inherit;
+  left: 7px;
+}
+
+.rtl header.fixed .searchbutton {
+  bottom: -78px;
+  right: inherit;
+  left: 7px;
+}
+
+.rtl .responisve-search {
+  right: auto;
+  cursor: pointer;
+  /* display: none; */
+  left: 11%;
+}
+
+.rtl .search_result {
+  top: 103%;
+  right: inherit;
+  left: 20px;
+}
+
+.rtl header.fixed .search_result {
+  top: 106%;
+  left: 10px;
+}
+
+.rtl .organ-container {
+  padding-right: 10px;
+}
+
+.rtl .nav-item:last-child .menu {
+  width: 220px;
+}
+
+.rtl ul.heroicon {
+  left: 0;
+  right: inherit;
+}
+
+.rtl ul.heroicon li {
+  border-radius: 0px 11px 11px 0px;
+}
+
+.rtl .navbar-expand-lg .navbar-nav .nav-link {
+  gap: 15px;
+}
+
+.rtl section.heresection {
+  /* display: flex; */
+  /* background-image: url(./assets/images/herobannerbg.png); */
+  /*  background-image: url('https://stagging.rakwithinfinity.online/wp-content/themes/rak-hospital/assets/images/ar-hero.jpg');*/
+  /* background-image: url("https://stagging.rakwithinfinity.online/wp-content/uploads/2024/07/website_home_page_main-eng-arab-02.jpg"); */
+}
+
+.rtl .hero-rtlSlider {
+  display: block;
+}
+
+.rtl .heresection .hero-slider .rtl-slide {
+  display: block;
+  /* background: red; */
+}
+
+.rtl .heresection .hero-slider .ltl-slide {
+  display: none;
+}
+
+/* Slider in RTL */
+.rtl .owl-carousel,
+.rtl .bx-wrapper {
+  direction: ltr;
+}
+
+.rtl .owl-carousel .owl-item {
+  direction: rtl;
+}
+
+/*----------- Body Sections -------------*/
+.rtl .treatmentoption li {
+  gap: 15px;
+}
+
+.rtl .d-flex.align-items-start.cardio-tabs {
+  gap: 30px;
+}
+
+.rtl .banner-img:after {
+  border-right: 8px solid #2958a8;
+  content: "";
+  right: 165px;
+  left: none;
+}
+
+.rtl .home-info-bg h1.color-pink {
+  font-size: 45px;
+  margin-bottom: 2px;
+}
+
+.rtl .home-info-bg .banner-img {
+  max-width: 140px;
+}
+
+.rtl .home-detail {
+  padding-right: 28px;
+}
+
+.rtl section.treatments {
+  padding-right: 25px;
+}
+
+.rtl ul.servicenav.nav li a {
+  /*  justify-content: space-between;*/
+}
+
+.rtl ul.servicenav.nav li a .fa-chevron-right {
+  margin-left: 16px;
+  transform: rotate(180deg);
+}
+
+.rtl .datepicker {
+  width: 95% !important;
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+/* Specilaity Section */
+body.rtl li.treatment-listitem:before {
+  content: "\25C0 \0020";
+  font-size: 15px;
+  position: absolute;
+  top: 5px;
+  right: -23px;
+  left: auto;
+}
+
+/* Services page */
+.rtl .n_outpatient-bg {
+  padding-right: 40px;
+}
+
+.rtl .rtl li.treatment-listitem:before {
+  top: 0px;
+}
+
+.rtl div#v-pills-tab button {
+  text-align: right;
+  gap: 20px;
+}
+
+.rtl li.hospitality-right {
+  justify-content: start;
+}
+
+.rtl .item-info {
+  text-align: right;
+}
+
+.rtl .categorymain .item-info p {
+  padding-right: 0px;
+}
+
+.rtl .categorymain .item-info p {
+  height: 80px;
+}
+
+.rtl .button-doctor a {
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+.rtl section.expertisesec::before {
+  content: "";
+  height: 400px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .rtl .searchbutton input {
+    .rtl section.expertisesec::before {
+      content: "";
+      height: 300px;
+      width: 300px;
+    }
+    padding: 10px 15px 10px 20px;
+  }
+  .rtl .searchbutton {
+    top: 82px;
+  }
+  .searchbutton input {
+    padding: 10px 20px 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .rtl button.navbar-toggler {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    right: inherit;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    z-index: 99999;
+    left: 10px;
+  }
+
+  .rtl header.fixed .searchbutton {
+    transform: none;
+  }
+  .rtl .search_result {
+    left: 18px;
+  }
+
+  .rtl header.fixed .searchbutton {
+    max-width: 500px;
+  }
+
+  .rtl .searchbutton {
+    top: 80px;
+  }
+}
+
+
+@media only screen and (max-width: 760px) {
+  .rtl section.expertisesec::before {
+    content: "";
+    height: 200px;
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .rtl .responisve-search {
+    display: block;
+    right: inherit;
+    left: 11%;
+  }
+  .rtl header.fixed .search_result {
+    top: 82%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .rtl header .searchbutton {
+    transform: none;
+    height: 45px;
+    top: 78px;
+  }
+
+  .rtl .banner-img:after {
+    border-right: 7px solid ##2958a8;
+    content: "";
+    right: 90px;
+  }
+
+  .rtl .home-info-bg h1.color-pink {
+    font-size: 34px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+  }
+
+  .rtl header .searchbutton {
+    transform: none;
+    height: 50px;
+    top: 78px;
+    left: 1% !important;
+    right: inherit !important;
+  }
+
+  .rtl header.fixed .searchbutton {
+    transform: none;
+    height: 50px;
+    top: 78px;
+    left: 1% !important;
+    right: inherit !important;
+  }
+
+  .rtl .search_result {
+    top: 84%;
+    left: 3px;
+  }
+
+  .rtl ul#pills-tab li button {
+    width: 100% !important;
+    font-size: 14px;
+    padding: 9px 12px 10px 45px;
+    border-radius: 13px !important;
+  }
+
+  .rtl header.fixed .search_result {
+    top: 84%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .rtl .appoinmentmainsec {
+    margin-top: 10px;
+  }
+
+  .rtl .responisve-search {
+    left: 14%;
+  }
+}
+
+/*for Anurag*/
+.rtl .nav-link {
+  gap: 30px;
+}
+.rtl ul.servicenav.nav li a i {
+  margin-left: 16px;
+}
+
+.rtl .contact-form .ipt-uif-custom-material-pink .input-field .prefix ~ label {
+  margin-left: 0px;
+}
+.rtl ul.footersocialmedia {
+  margin-right: 1px;
+}
+
+.rtl .speciality-form .ipt-uif-custom-material-pink .input-field label {
+  left: -10px;
+}

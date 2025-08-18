@@ -1,0 +1,3599 @@
+@media only screen and (min-width: 1430px) {
+  .container {
+    max-width: 1290px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .heresection .hero-slider .slide {
+    background-size: cover;
+  }
+
+  .heresection .hero-slider .slide {
+    background-position: center;
+    /* padding: 401px 0px; */
+    padding: 0px 0px;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .expertisetitle h3 {
+    font-size: 68px;
+    margin-top: -75px;
+  }
+
+  .appoinmentdetail h3 {
+    font-size: 40px;
+  }
+
+  ul#pills-tab button {
+    padding: 10px 30px;
+  }
+
+  ul.stepslist li {
+    height: 310px;
+  }
+
+  .stepup h4 {
+    max-width: 370px;
+  }
+
+  .row.align-items-center.contact-form {
+    padding: 0 20px;
+  }
+
+  section.about-tabsection {
+    padding: 50px 0;
+  }
+
+  .tab-content .row {
+    margin-bottom: 40px;
+  }
+
+  section {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .searchbutton {
+    max-width: 803px;
+  }
+
+  .container {
+    max-width: 1630px;
+  }
+
+  .home-info-bg {
+    margin-left: 10px;
+  }
+
+  .hospitality-content {
+    max-width: calc(100% - 470px);
+  }
+
+  .owl-nav {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .owl-nav button {
+    position: relative !important;
+    top: auto !important;
+    transform: inherit !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  ul.stepslist li {
+    width: 48%;
+  }
+
+  .stepup h4 {
+    max-width: 510px;
+    font-size: 24px;
+  }
+
+  .stepup {
+    gap: 20px;
+  }
+
+  .section-title.about-info h2 {
+    font-size: 22px;
+  }
+
+  .section-title.about-info {
+    margin-top: 0;
+  }
+
+  .testimonialcontent p {
+    font-size: 15px;
+  }
+
+  .appointment-form.margin-top {
+    margin-top: 60px;
+  }
+
+  .about-info h6 {
+    font-size: 22px;
+  }
+
+  .home-info-bg h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+
+  .home-info-bg span {
+    font-size: 36px!important;
+    margin-bottom: 0!important;
+  }
+
+  .home-info-bg span {
+    font-size: 36px!important;
+    margin-bottom: 0!important;
+  }
+
+  .home-info-bg h1.color-pink {
+    font-size: 44px;
+    margin-bottom: 2px;
+  }
+
+  .home-info-bg span.color-pink {
+    font-size: 44px!important;
+    margin-bottom: 2px!important;
+  }
+
+  .searchbutton,
+  .search_result {
+    max-width: 718px;
+  }
+
+  ul.socialmedia a {
+    width: 60px;
+    height: 40px;
+  }
+
+  a.navbar-brand {
+    width: 190px;
+  }
+
+  .searchbutton {
+    height: 70px;
+  }
+
+  /* header .searchbutton a {
+        width: 50px;
+        height: 50px;
+    } */
+
+  ul#pills-tab button {
+    padding: 10px 17px;
+    gap: 7px;
+  }
+
+  .appoinmentdetail h3 {
+    font-size: 30px;
+  }
+
+  header.fixed .searchbutton {
+    bottom: -54px;
+  }
+
+  .expertisetitle h3 {
+    font-size: 40px;
+    margin-top: -60px;
+  }
+
+  .expertisetitle p {
+    font-size: 21px;
+    line-height: 30px;
+  }
+
+  .rakhintegratedtitle h3 {
+    font-size: 40px;
+  }
+
+  div#v-pills-tabContent {
+    z-index: 999;
+  }
+
+  .servicecalltitle h3 {
+    font-size: 30px;
+  }
+
+  .servicecalltitle h3 img {
+    width: 40px;
+  }
+
+  .card-body h5 {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+
+  .rasaititle h3 {
+    font-size: 60px;
+  }
+
+  .rasaititle p {
+    font-size: 35px;
+  }
+
+  .awardtitle h3 {
+    margin-bottom: 25px;
+  }
+
+  section.heresection {
+    background-size: cover;
+    /* margin-top: 170px; */
+  }
+
+  /* about */
+  .about-info h2 {
+    font-size: 34px;
+  }
+
+  .content-tabs {
+    margin-left: 20px;
+  }
+
+  /* contact */
+  .nav-pills .nav-link.bg-color.active,
+  .nav-pills .show > .nav-link {
+    font-size: 16px;
+  }
+
+  .nav-link.bg-color {
+    font-size: 16px;
+  }
+
+  .col-lg-6.padding {
+    padding-left: 40px;
+  }
+
+  div#v-pills-tab {
+    /* margin-right: 0 !important; */
+  }
+
+  .header-right a {
+    font-size: 15px;
+  }
+
+  ul.servicenav.nav li a {
+    font-size: 20px;
+  }
+
+  .hospitality-content {
+    max-width: calc(100% - 300px);
+  }
+
+  .discount-content {
+    max-width: calc(100% - 523px);
+  }
+
+  .healthcheckuppackage h3 {
+    font-size: 21px;
+  }
+
+  .healthcheckuppackage {
+    height: auto;
+    padding: 50px 24px;
+  }
+
+  .healthcheckuppackage p {
+    font-size: 24px;
+  }
+
+  .patienttestimonialtitle h2 {
+    font-size: 40px;
+  }
+
+  .stepforconnect h3 {
+    font-size: 27px;
+  }
+
+  .furtherconnect p {
+    font-size: 24px;
+  }
+
+  .searchbutton {
+    max-width: 719px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .responisve-search {
+    right: 5%;
+  }
+}
+@media only screen and (max-width: 1429px) {
+
+  .heresection .hero-slider .slide img {
+    max-height: 420px;
+  }
+
+  .col-xl-6.bg-grey.mb-xl-0.mb-3 {
+    width: 100%;
+  }
+
+  .col-xl-6.padding {
+    margin-top: 30px;
+  }
+
+  .col-lg-3.home-titlesection {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .col-lg-5.home-menu {
+  }
+
+  .col-lg-4.home-iframeform {
+    width: 50%;
+  }
+
+  .appoinmentdetail {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  ul.stepslist li {
+    height: 220px;
+  }
+
+  .eyecare-doctors .appointment-form {
+    width: 70%;
+  }
+
+  .col-lg-3.inner-form-left {
+    width: 30%;
+  }
+
+  .row content-coll .col-lg-9 {
+    width: 70%;
+  }
+
+  .row.content-coll .col-lg-9 {
+    width: 70%;
+  }
+
+  section.about-tabsection .content-tabs.cardiotab {
+    max-width: 100%;
+  }
+
+  .tab-content .about-info {
+    padding: 0;
+  }
+
+  .searchbutton {
+    max-width: 605px;
+  }
+
+  /* section.heresection {
+    height: 600px;
+  } */
+
+  a.nav-link {
+    margin: 0 !important;
+    font-size: 16px !important;
+  }
+
+  span.herobanner img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .menu li a {
+    font-size: 15px !important;
+    margin: 0 !important;
+  }
+
+  .menu li {
+    padding: 10px;
+    justify-content: start;
+  }
+
+  .nav-item:hover .menu {
+    height: 270px;
+  }
+
+  .navbar-nav .nav-item:hover .menu {
+    height: auto;
+  }
+
+  ul#pills-tab button img {
+    height: 40px;
+  }
+
+  ul#pills-tab button {
+    font-size: 17px;
+    padding: 10px 9px;
+  }
+
+  .menu.treatmentoption li img {
+    width: 40px;
+  }
+
+  .menu.treatmentoption {
+    top: 0;
+  }
+
+  .rasaibanner {
+    padding: 50px;
+  }
+
+  /* about */
+  .about-info h2 {
+    font-size: 43px;
+    margin-bottom: 10px;
+  }
+
+  .banner-img img {
+    max-width: 100px;
+  }
+
+  .home-info-bg h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .home-info-bg span {
+    font-size: 40px!important;
+    line-height: 40px!important;
+  }
+
+  .home-info-bg h1.color-pink {
+    font-size: 45px;
+  }
+
+  .home-info-bg span.color-pink {
+    font-size: 45px!important;
+  }
+
+  /* doctor */
+  .appointment-form.margin-top {
+    margin-top: 50px;
+  }
+
+  /* eyecare */
+  section.about-tabsection .content-tabs {
+    /* max-width: 70%; */
+  }
+
+  .eyecare-doctors {
+    padding: 0 100px;
+  }
+
+  h6.contact-font {
+    max-width: 350px;
+  }
+
+  .banner-img:after {
+    left: 127px;
+    height: 130px;
+    width: 10px;
+  }
+
+  section.cardiologysection {
+    height: auto;
+  }
+
+  .home-info-bg h1.color-pink {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .home-info-bg span.color-pink {
+    font-size: 40px!important;
+    line-height: 40px!important;
+  }
+
+  li.hospitality-right {
+    height: 204.16px;
+  }
+
+  .insurance-content {
+    max-width: calc(100% - 200px);
+  }
+
+  .about-info.discount-content {
+    margin-left: 190px;
+  }
+
+  ul.stepslist li {
+    height: 230px;
+  }
+
+  .expertisetitle::after {
+    width: 10%;
+  }
+
+  .expertisetitle::before {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .rakcaretitle h3 {
+    font-size: 38px;
+  }
+
+  .rakcaretitle p {
+    font-size: 20px;
+  }
+
+  ul.stepslist li {
+    height: 260px;
+  }
+
+  .stepup h4 {
+    max-width: 350px;
+  }
+
+  .col-xl-6.padding {
+    justify-content: flex-start;
+    margin-top: 30px;
+  }
+
+  section.cardiologysection {
+    margin-top: 183px;
+  }
+
+  .home-info-bg {
+    gap: 20px;
+  }
+
+  .banner-img:after {
+    left: 97px;
+  }
+
+  .me-3 {
+    margin-right: 0 !important;
+  }
+
+  .nav-link {
+    gap: 30px;
+  }
+
+  .contactsubdetail h3 {
+    font-size: 34px;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+
+  .contactsubdetail p {
+    font-size: 20px;
+  }
+
+  .contactsubdetail {
+    margin-bottom: 20px;
+  }
+
+  a.nav-link {
+    font-size: 13px !important;
+  }
+
+  header a.navbar-brand {
+    width: 115px;
+  }
+
+  nav.navbar.navbar-expand-lg {
+    /* padding: 36px 0px 25px; */
+  }
+
+  ul.socialmedia {
+    top: -30px;
+  }
+
+  .searchbutton {
+    max-width: 500px;
+  }
+
+  .search_result {
+    width: 500px;
+  }
+
+  .searchbutton input {
+    padding: 10px 80px 10px 20px;
+  }
+
+  .heroinfo h1 {
+    font-size: 30px;
+  }
+
+  /* section.heresection {
+    height: 768px;
+  } */
+
+  .col-lg-3 ul#pills-tab button {
+    width: 100px;
+  }
+
+  .rakhintegratedsec div#v-pills-tab button {
+    font-size: 17px;
+    padding: 10px 30px;
+    z-index: 999 !important;
+    background: white;
+    position: relative;
+  }
+
+  div#v-pills-tab button:after {
+    width: 106px;
+  }
+
+  .rakhintegratedtitle h3 {
+    font-size: 30px;
+  }
+
+  .card-body h5 {
+    font-size: 22px;
+  }
+
+  .rasaititle p {
+    font-size: 25px;
+  }
+
+  .footermenu ul li a {
+    font-size: 16px;
+  }
+
+  .footermenu h4 {
+    font-size: 30;
+    font-size: 26px;
+  }
+
+  .coprights p {
+    font-size: 16px;
+  }
+
+  footer .col-lg-2:last-child {
+    width: 100%;
+  }
+
+  footer .col-lg-2 {
+    width: 25%;
+  }
+
+  ul#pills-tab {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: auto;
+  }
+
+  ul#pills-tab button {
+    padding: 10px 60px 10px 13px;
+  }
+
+  .bg-transpernt {
+    gap: 15px;
+  }
+  .bg-transpernt button {
+    padding: 10px 20px !important;
+    margin-right: 10px;
+  }
+
+  ul#pills-tab::-webkit-scrollbar {
+    display: none;
+  }
+
+  .col-lg-3 ul#pills-tab button {
+    padding: 10px;
+  }
+
+  .bg-white h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .bg-white p {
+    font-size: 25px;
+  }
+
+  .rasaibanner a {
+    font-size: 21px;
+  }
+
+  .rasaibanner span {
+    font-size: 28px;
+  }
+
+  /* about */
+  .banner-img img {
+    max-width: 80px;
+  }
+
+  .home-info-bg h1 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .home-info-bg span {
+    font-size: 35px!important;
+    line-height: 35px!important;
+  }
+
+  .home-info-bg h1.color-pink {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  .home-info-bg span.color-pink {
+    font-size: 35px!important;
+    line-height: 35px!important;
+  }
+
+  .about-info p {
+    font-size: 16px;
+  }
+
+  .about-info h2 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  .about-info h4 {
+    font-size: 24px;
+  }
+
+  .tab-content .about-info {
+    padding: 0;
+  }
+
+  /* doctor */
+  .appointment-form {
+    padding: 30px 5px;
+  }
+
+  .speciality-form {
+    padding: 0px;
+  }
+
+  /* find */
+  .item-info.doctor-info h6 {
+    font-size: 18px;
+  }
+
+  /* speciality */
+  li.speciality-bg {
+    width: calc(100% / 5 - -18px);
+  }
+
+  .about-info h6 {
+    font-size: 20px;
+  }
+
+  .nav-pills .nav-link.bg-color.active,
+  .nav-pills .show > .nav-link {
+    background: #2566d760 !important;
+  }
+
+  .explore-info h3 {
+    font-size: 30px;
+  }
+
+  .explore-info p {
+    font-size: 18px;
+  }
+
+  ul.servicenav.nav li a {
+    font-size: 17px;
+  }
+
+  .hospitality-content {
+    max-width: calc(100% - 0px);
+  }
+
+  li.hospitality-right {
+    height: 187.56px;
+  }
+
+  .about-info.discount-content {
+    margin: auto;
+    margin-left: 30px;
+  }
+
+  .discount-content {
+    max-width: calc(100% - 253px);
+  }
+
+  .contactdetail p {
+    font-size: 30px;
+  }
+
+  .contactdetail h3 {
+    font-size: 30px;
+  }
+
+  ul.stepslist {
+    gap: 25px;
+  }
+
+  .servicemaintitle h3 {
+    font-size: 40px;
+  }
+
+  .category-title h2 {
+    font-size: 40px;
+  }
+
+  section.treatments.service {
+    padding: 30px 0;
+  }
+
+  .doctorimg {
+    height: 270px;
+  }
+
+  .appointment-wrapper {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .responisve-search {
+    right: 2%;
+  }
+  ul.heroicon {
+    position: fixed;
+    z-index: 99;
+    bottom: 30%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .responisve-search {
+    right: 7%;
+  }
+  .nav-item .menu {
+    height: fit-content;
+    position: relative;
+    top: 0px;
+    animation: fade 0.32s ease-in-out;
+  }
+
+  .menu li {
+    padding: 10px;
+    text-align: start;
+  }
+
+  @keyframes fade {
+    from {
+      /* transform: translateY(40%); */
+      opacity: 0;
+    }
+    to {
+      /* transform: translateY(24%); */
+      opacity: 1;
+    }
+  }
+
+  .heresection .hero-slider .slide {
+    /* padding: 260px 0px; */
+    padding: 0px 0px;
+  }
+
+  .col-lg-5.home-menu {
+    width: 100%;
+  }
+
+  .col-lg-4.home-iframeform {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .stepdown p {
+    font-size: 16px;
+  }
+
+  .stepup h4 {
+    max-width: 240px;
+    font-size: 22px;
+  }
+
+  ul.stepslist li {
+    height: 260px;
+  }
+
+  .eyecare-doctors .appointment-form {
+    width: 100%;
+  }
+
+  a.btn-submit.mt-5 {
+    display: block;
+  }
+
+  section.n_patientservice .col-lg-10 {
+    max-width: 100%;
+  }
+
+  .aboutras {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  section.cardiologysection {
+    margin-top: 5px;
+  }
+
+  /* header .searchbutton a {
+        width: 40px;
+        height: 40px;
+    } */
+
+  .searchbutton {
+    height: 60px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    gap: 10px;
+  }
+
+  section.servicecontact {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .patienttestimonialtitle h2 {
+    font-size: 30px;
+  }
+
+  .stepforconnect h3 {
+    font-size: 20px;
+  }
+
+  .furtherconnect p {
+    font-size: 18px;
+  }
+
+  p {
+  }
+  /* 
+  section.heresection {
+    height: 440px;
+     margin-top: 117px; 
+  } */
+
+  ul.footermenu {
+    max-width: 370px;
+    justify-content: space-between;
+    margin: 30px 0px;
+  }
+
+  .contactbtns {
+    max-width: 390px;
+  }
+
+  /**********  Responsive Menu Bootstrap **********/
+
+  /**  menu  **/
+  .toggler {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #7bc00b;
+    text-align: center;
+    z-index: 99;
+    display: block;
+    transition: all 0.5s;
+    margin-left: 20px;
+  }
+
+  .show-menu .toggler {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    border: none;
+  }
+
+  .toggler span {
+    position: relative;
+    width: 60%;
+    height: 2px;
+    background-color: #7bc00b;
+    display: inline-block;
+    vertical-align: top;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .toggler span::before,
+  .toggler span::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #7bc00b;
+    right: 0;
+    transition: all 0.5s;
+    animation: openCloseByeSpan 300ms linear forwards;
+  }
+
+  .toggler span::before {
+    top: -6px;
+  }
+
+  .toggler span::after {
+    top: 6px;
+  }
+
+  .show-menu .toggler span::before,
+  .show-menu .toggler span::after {
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(45deg);
+    top: -5px;
+  }
+
+  .show-menu .toggler span::after {
+    transform: rotate(-45deg);
+  }
+
+  .show-menu .toggler span {
+    height: 0;
+  }
+
+  #navbarNav {
+    background: #ffffff url(../images/banner-img.png) no-repeat bottom right /
+      auto 170px;
+    /* box-shadow: 0 0px 0 10px #fff inset, 0 0 0 11px #7bc00b inset; */
+    padding: 60px 20px 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block !important;
+    width: 100% !important;
+    text-align: center;
+    bottom: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    -webkit-transform: translateX(110%);
+    -moz-transform: translateX(110%);
+    -ms-transform: translateX(110%);
+    -o-transform: translateX(110%);
+    transform: translateX(110%);
+    height: auto !important;
+    overflow: auto;
+  }
+
+  .show-menu #navbarNav {
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+    transform: translateX(0%);
+    height: 100vh !important;
+  }
+
+  header.fixed #navbarNav {
+    top: 45%;
+  }
+
+  .show-menu .navbar-toggler {
+    position: fixed;
+    z-index: 5;
+    right: 15px;
+    border-radius: 5px;
+    padding: 2px;
+    top: 15px;
+  }
+
+  .show-menu .navbar-toggler-icon {
+    /* background-image: url("../images/close.svg"); */
+    background-size: 14px auto;
+    /* background-color: red; */
+  }
+
+  .navbar-nav .nav-item {
+    margin-left: 0;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: ##2958a8;
+  }
+
+  .navbar-nav .active .nav-link {
+    color: ##2958a8;
+    font-weight: bold;
+  }
+
+  .navbar-nav .nav-item .dropdown-item {
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  .navbar-nav .dropdown-menu {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  /* Common Css must add */
+  .navbar-toggler svg {
+    height: 40px;
+    position: absolute;
+    width: 40px;
+    cursor: pointer;
+    /*   border: 1px solid black; */
+    /* background-color: #fff; */
+  }
+
+  .plate {
+    height: 40px;
+    width: 40px;
+  }
+
+  .burger {
+    /* filter: url(#gooeyness); */
+  }
+
+  .x {
+    transform: scale(0);
+    transition: transform 400ms;
+  }
+
+  .line {
+    /* fill: none; */
+    stroke: #000000;
+    stroke-width: 6px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transform-origin: 50%;
+    transition: stroke-dasharray 500ms 200ms, stroke-dashoffset 500ms 200ms,
+      transform 500ms 200ms;
+  }
+
+  .x .line {
+    stroke-width: 5.5px;
+  }
+
+  /* Common Css must add end */
+
+  /* Forth Menu Css */
+  .plate4 .x {
+    transition: transform 400ms;
+  }
+
+  .plate4 .line {
+    transform-origin: 50%;
+    transition: transform 400ms 100ms;
+  }
+
+  .active.plate4 .line {
+    transition: transform 400ms;
+  }
+
+  .active.plate4 .line1 {
+    transform: translateX(18px) translateY(-3px) rotate(-45deg) scale(0.7);
+  }
+
+  .active.plate4 .line2 {
+    transform: translateX(-18px) translateY(-3px) rotate(45deg) scale(0.7);
+  }
+
+  .active.plate4 .line3 {
+    transform: translateY(0px) rotate(45deg) scale(0.7);
+  }
+
+  .active.plate4 .line4 {
+    transform: translateY(0px) rotate(-45deg) scale(0.7);
+  }
+
+  .active.plate4 .line5 {
+    transform: translateX(18px) translateY(3px) rotate(45deg) scale(0.7);
+  }
+
+  .active.plate4 .line6 {
+    transform: translateX(-18px) translateY(3px) rotate(-45deg) scale(0.7);
+  }
+
+  .plate4 .menuburger {
+    display: block;
+  }
+
+  .active.plate4 .menuburger {
+    display: none;
+  }
+
+  header.fixed .active.plate4 .x {
+    top: 0%;
+  }
+
+  .active.plate4 .x {
+    transition: transform 400ms 100ms;
+    transform: scale(1);
+    top: -200%;
+    position: absolute;
+    display: block;
+    z-index: 1111112;
+  }
+
+  button.navbar-toggler {
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    z-index: 99999;
+  }
+
+  span.navbar-toggler-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navbar-toggler svg {
+    left: 0;
+    top: 0;
+  }
+
+  .show-menu .navbar-toggler {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    right: 10px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .btns {
+    justify-content: center;
+  }
+
+  /**  Menu  **/
+  ul.socialmedia {
+    top: 10px;
+    left: 27px;
+  }
+
+  .navbar-nav .nav-link i {
+    margin-left: auto;
+  }
+
+  div#navbarNav {
+    z-index: 11111;
+  }
+
+  nav.navbar.navbar-expand-lg {
+    padding: 6px 0px;
+  }
+
+  span.herobanner {
+    height: calc(100% - 100px);
+  }
+
+  .navbar .navbar-nav .nav-link {
+    font-size: 17px !important;
+  }
+
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid #dad7d7;
+  }
+
+  .navbar-nav .nav-item:last-child {
+    border: none;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  ul.heroicon a {
+    width: 52px;
+    height: 54px;
+  }
+
+  ul.heroicon a img {
+    width: 25px;
+  }
+
+  ul li.bgred a img {
+    /* height: 55px; */
+    width: fit-content;
+  }
+
+  span.goldimg {
+    width: 160px;
+    height: 160px;
+    left: 20px;
+    bottom: 130px;
+  }
+
+  section.heresection {
+    /* height: 545px; */
+  }
+
+  a.livechat {
+    bottom: 80px;
+  }
+
+  .appoinmentdetail span {
+    justify-content: center;
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .appoinmentdetail {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  ul#pills-tab {
+    margin-bottom: 30px !important;
+  }
+
+  .appoinmentdetail h3 {
+    font-size: 24px;
+  }
+
+  div#pills-home .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  div#pills-home .row .col-lg-6 {
+    width: 60%;
+  }
+
+  div#pills-home .row .col-lg-6 + .col-lg-3 {
+    width: 40%;
+  }
+
+  .expertisetitle h3 {
+    font-size: 30px;
+  }
+
+  .expertisetitle {
+    padding: 40px 70px;
+  }
+
+  section.expertisesec {
+    padding-bottom: 10px;
+    /* padding-top: 75px; */
+  }
+
+  section.expertisesec::before {
+    content: "";
+    height: 420px;
+    width: 420px;
+  }
+
+  .rakhintegratedtitle h3 {
+    letter-spacing: 0;
+    line-height: 50px;
+  }
+
+  .tabtitle h5 {
+    font-size: 21px;
+    margin: 0;
+  }
+
+  div#v-pills-tab button:after {
+    width: 90px;
+  }
+
+  .row.row-cols-1.row-cols-md-3.g-4 .col {
+    padding: 0 5px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card-body p {
+    font-size: 15px;
+  }
+
+  .card-body a {
+    font-size: 16px;
+  }
+
+  .card-body h5 {
+    font-size: 19px;
+  }
+
+  ul.socialmedia {
+    top: 10px;
+    left: 27px;
+  }
+
+  .navbar-nav .nav-link i {
+    margin-left: auto;
+  }
+
+  div#navbarNav {
+    z-index: 99;
+  }
+
+  nav.navbar.navbar-expand-lg {
+    padding: 6px 0px;
+  }
+
+  span.herobanner {
+    height: calc(100% - 100px);
+  }
+
+  .navbar .navbar-nav .nav-link {
+    font-size: 17px !important;
+  }
+
+  .navbar-nav .nav-item {
+    border-bottom: 1px solid #dad7d7;
+  }
+
+  .navbar-nav .nav-item:last-child {
+    border: none;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  ul.heroicon a {
+    width: 52px;
+    height: 54px;
+  }
+
+  ul.heroicon a img {
+    width: 25px;
+  }
+
+  ul li.bgred a img {
+    width: fit-content;
+    height: 30px;
+  }
+
+  span.goldimg {
+    width: 160px;
+    height: 160px;
+    left: 20px;
+    bottom: 130px;
+  }
+
+  /* section.heresection {
+    height: 545px;
+  } */
+
+  a.livechat {
+    bottom: 80px;
+  }
+
+  .appoinmentdetail span {
+    justify-content: center;
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .appoinmentdetail {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  ul#pills-tab {
+    margin-bottom: 30px !important;
+  }
+
+  .appoinmentdetail h3 {
+    font-size: 24px;
+  }
+
+  div#pills-home .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  div#pills-home .row .col-lg-6 {
+    width: 60%;
+  }
+
+  div#pills-home .row .col-lg-6 + .col-lg-3 {
+    width: 40%;
+  }
+
+  .expertisetitle h3 {
+    font-size: 30px;
+  }
+
+  .staffexperts .expertisetitle h3 {
+    font-size: 30px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .expertisetitle {
+    padding: 40px 70px;
+    padding-bottom: 0;
+  }
+
+  section.expertisesec {
+    padding-bottom: 10px;
+  }
+
+  .rakhintegratedtitle h3 {
+    letter-spacing: 0;
+    line-height: 50px;
+  }
+
+  .tabtitle h5 {
+    font-size: 21px;
+    margin: 0;
+  }
+
+  div#v-pills-tab button:after {
+    width: 90px;
+  }
+
+  .row.row-cols-1.row-cols-md-3.g-4 .col {
+    padding: 0 5px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .card-body p {
+    font-size: 15px;
+  }
+
+  .card-body a {
+    font-size: 16px;
+  }
+
+  .card-body h5 {
+    font-size: 19px;
+  }
+
+  header.fixed .searchbutton {
+    bottom: 9px;
+    margin: auto;
+    left: 56%;
+    transform: translateX(-50%);
+    max-width: 320px;
+    width: 97%;
+  }
+
+  header.fixed .searchbutton input {
+    font-size: 14px;
+  }
+
+  footer .col-lg-3 {
+    width: 25%;
+  }
+
+  .footermenu h4 {
+    font-size: 22px;
+  }
+
+  .rasaititle h3 {
+    font-size: 40px;
+  }
+
+  ul#brand {
+    margin-bottom: 0;
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  section.awardsec {
+    padding: 30px 0px;
+  }
+
+  ul.socialmediamain a h6 {
+    font-size: 24px;
+  }
+
+  ul.socialmediamain a span {
+    font-size: 16px;
+  }
+
+  .footermenu ul li a {
+  }
+
+  ul.socialmediamain a i {
+    font-size: 40px;
+  }
+
+  .footermenu ul li a {
+    max-width: 220px;
+  }
+
+  footer .col-lg-2 {
+    width: 33%;
+  }
+
+  footer .col-lg-2:last-child {
+    width: 50%;
+  }
+
+  /**********  Responsive Menu  **********/
+
+  .rasaibanner {
+    position: relative;
+    padding: 30px;
+  }
+
+  .rasaisec .rasaibanner {
+    padding: 0px;
+  }
+
+  .rasaibanner:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #59392b61;
+  }
+
+  .rasaibanner span {
+    position: relative;
+    z-index: 99;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .bg-white {
+    position: relative;
+    z-index: 99;
+    margin-bottom: 21px;
+  }
+
+  .rasaibanner a {
+    position: relative;
+    z-index: 999;
+    font-size: 20px;
+  }
+
+  .bg-white p {
+    font-size: 22px;
+  }
+
+  .bg-white h3 {
+    font-size: 37px;
+  }
+
+  /* about */
+  .home-info-bg h1 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .home-info-bg span {
+    font-size: 25px!important;
+    line-height: 25px!important;
+  }
+
+  .home-info-bg h1.color-pink {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .home-info-bg span.color-pink {
+    font-size: 25px!important;
+    line-height: 25px!important;
+  }
+
+  p {
+  }
+
+  .home-detail p {
+    font-size: 12px;
+  }
+
+  .home-info-bg {
+    gap: 20px;
+  }
+
+  .home-info-bg .banner-img {
+    padding-right: 20px;
+  }
+
+  .tab-content .row {
+    margin-bottom: 40px;
+  }
+
+  section.about-tabsection .row.align-items-start:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .content-tabs {
+    max-width: calc(100% - 259px);
+    margin-left: 50px;
+  }
+
+  div#v-pills-tab button {
+    text-align: left;
+  }
+
+  .content-tabs {
+    margin-left: 20px;
+  }
+
+  /* eyecare */
+  .eyecare-doctors {
+    padding: 0 10px;
+  }
+
+  /* find */
+  .item-info.doctor-info h6 {
+    font-size: 15px;
+  }
+
+  .item-info.doctor-info h5 {
+    font-size: 16px;
+  }
+
+  /* speciality */
+  li.speciality-bg {
+    width: calc(100% / 5 - -72px);
+  }
+
+  .inner-form-left div#v-pills-tab {
+    flex-direction: row !important;
+    gap: 15px;
+  }
+
+  a.btn-submit {
+    display: none;
+  }
+
+  .button-doctor a {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .header-right.inner-form-btn.d-none {
+    display: block !important;
+  }
+
+  .header-right.inner-form-btn.d-none a {
+    display: inline-block !important;
+  }
+
+  section.n_patientservice .col-lg-2 {
+    width: 30%;
+  }
+
+  section.n_patientservice .col-lg-10 {
+    width: 70%;
+  }
+
+  .banner-img:after {
+    width: 8px;
+    height: 100px;
+  }
+
+  .home-info-bg {
+    gap: 30px;
+  }
+
+  li.hospitality-right {
+    padding: 10px;
+    height: fit-content;
+  }
+
+  .rtl li.hospitality-right {
+    padding-right: 22px;
+  }
+
+  .hospitality-right .about-info.bg-hospitality p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  section.n_patientservice .col-lg-10.insurance-content {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .insurance-content {
+    max-width: 100%;
+  }
+
+  .accordion-button {
+    font-size: 20px;
+  }
+
+  .discountcardimg {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.rakinternationalpatientservice .col-lg-2 {
+    width: 50%;
+  }
+
+  ul.stepslist {
+    gap: 19px;
+  }
+
+  ul.stepslist li {
+    height: 230px;
+  }
+
+  .blogimg.ml-5 {
+    margin-left: 0;
+  }
+
+  .eyecarsection .col-lg-2 {
+    width: 50%;
+  }
+
+  .eyecarsection .col-lg-10 {
+    margin-top: 30px;
+  }
+
+  .doctorimg {
+    height: 350px;
+  }
+
+  .servicemaintitle {
+    margin: 0;
+  }
+
+  ul.servicenav.nav {
+    margin-bottom: 30px;
+  }
+
+  .servicemaintitle h3 {
+    font-size: 30px;
+  }
+
+  .servicemaintitle p {
+    font-size: 18px;
+  }
+
+  li.treatment-listitem h6 {
+    font-size: 18px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+
+  .row {
+  }
+
+  .patienttestimonialtitle + .row {
+    gap: 20px;
+  }
+
+  .responsive-top {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: nowrap;
+  }
+
+  .appointment-wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .testimoinal-card .top .img img {
+    width: 100%;
+  }
+
+  .testimoinal-card .top .img .heart-img {
+    width: fit-content;
+  }
+  .testimoinal-card .top iframe {
+    position: relative;
+    max-width: 450px;
+    height: auto;
+    max-height: 232px;
+  }
+
+  .testimoinal-card .bottom p {
+    font-size: 15px;
+    text-align: start;
+    height: 225px;
+  }
+
+  #countrys img {
+    max-height: 72px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col-xl-6.bg-grey.mb-xl-0.mb-3 {
+    width: 100%;
+  }
+
+  .col-xl-6.padding {
+    margin-top: 30px;
+  }
+
+  .col-lg-3.inner-form-left {
+  }
+
+  .row.content-coll {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .col-lg {
+    width: 60%;
+  }
+
+  ul.socialmediamain a i {
+    font-size: 25px;
+  }
+
+  ul.socialmediamain a h6 {
+    font-size: 19px;
+  }
+  ul.socialmediamain a span {
+    font-size: 14px;
+  }
+
+  .row.content-coll .col-lg-9 {
+    width: 100%;
+  }
+
+  ul.stepslist li {
+    width: 100%;
+    height: 230px;
+  }
+
+  .stepup h4 {
+    max-width: 380px;
+  }
+
+  .doctorimg {
+    height: 260px !important;
+  }
+
+  .discount-content {
+    margin-left: 1px;
+  }
+
+  .bg-grey {
+    padding: 30px;
+  }
+
+  .nav-link.bg-color {
+    margin-bottom: 0;
+  }
+
+  .nav-pills .nav-link.bg-color.active,
+  .nav-pills .show > .nav-link {
+    margin-bottom: 0;
+  }
+
+  a.nav-link {
+    width: 100%;
+  }
+  .treatmentoption li a {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    gap: 0;
+    width: 51%;
+  }
+
+  .heroinfo h1 {
+    font-size: 22px;
+  }
+
+  a.livechat {
+    height: 40px;
+    font-size: 16px;
+    width: 100px;
+    z-index: 99999999;
+  }
+
+  .col-lg-3 ul#pills-tab button {
+    width: 70px;
+  }
+
+  .expertisetitle {
+    padding: 25px;
+    padding-bottom: 0;
+  }
+
+  .expertisetitle h3 {
+    letter-spacing: 0;
+    font-size: 27px;
+  }
+
+  .expertisetitle p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .staffexperts .expertisetitle h3 {
+    font-size: 27px;
+  }
+
+  .staffexperts .expertisetitle p {
+    font-size: 16px;
+  }
+
+  .rakhintegratedtitle h3 {
+    font-size: 25px;
+  }
+
+  .d-flex.align-items-start {
+    flex-direction: column;
+  }
+
+  div#v-pills-tab {
+    flex-direction: row !important;
+    margin-bottom: 20px;
+  }
+
+  div#v-pills-tab button:after {
+    display: none;
+  }
+
+  div#v-pills-tab button {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .rakhintegratedsec .tabtitle {
+    display: none;
+  }
+
+  footer .col-lg-3 {
+    width: 50%;
+  }
+
+  .coprights {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .coprights p {
+    margin-bottom: 12px;
+  }
+
+  /* section.heresection {
+    height: 290px;
+  } */
+
+  .appoinmentdetail h3 {
+    font-size: 20px;
+    border-width: 4px;
+  }
+
+  .appoinmentdetail {
+    margin: auto;
+    margin-bottom: 27px;
+  }
+
+  /* about */
+  .banner-img img {
+    max-width: 50px;
+  }
+
+  .home-info-bg h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .home-info-bg span {
+    font-size: 20px!important;
+    line-height: 20px!important;
+  }
+
+  .home-info-bg h1.color-pink {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .home-info-bg span.color-pink {
+    font-size: 20px!important;
+    line-height: 20px!important;
+  }
+
+  .home-info-bg .banner-img {
+    padding-right: 10px;
+  }
+
+  .home-info-bg {
+    gap: 10px;
+  }
+
+  section.cardiologysection {
+    margin-top: 5px;
+  }
+
+  .content-tabs {
+    max-width: 536px;
+    margin-left: 0;
+  }
+
+  /* eyecare */
+  .eyecare-doctors {
+    gap: 10px;
+  }
+
+  .item-info.doctor-info h5 {
+    font-size: 16px;
+  }
+
+  .item-info.doctor-info h6 {
+    font-size: 16px;
+  }
+
+  .doctor-title h5 {
+    font-size: 16px;
+  }
+
+  .category-title h2 {
+    font-size: 40px;
+  }
+
+  section.about-tabsection .content-tabs {
+    max-width: 100%;
+  }
+
+  /* find */
+  .eyecare-doctors.find.row .col-lg-3.col-md-3.col-sm-3 {
+    width: 50%;
+  }
+
+  /* speciallity */
+  li.speciality-bg {
+    width: calc(100% / 5 - -60px);
+  }
+
+  ul.speciality-content {
+    gap: 20px;
+  }
+
+  .speciality-text h5 {
+    font-size: 16px;
+  }
+
+  .banner-img:after {
+    left: 57px;
+    height: 80px;
+  }
+
+  li.hospitality-left {
+    width: 100%;
+  }
+
+  ul.hospitality-info {
+    flex-direction: column;
+  }
+
+  li.hospitality-right {
+    width: 100%;
+  }
+
+  .n_patientservice ul.hospitality-info:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .about-info.bg-hospitality {
+    margin-top: 0;
+  }
+
+  .discount-content {
+    max-width: calc(100% - 173px);
+  }
+
+  .about-info h2 {
+    font-size: 40px;
+  }
+
+  .getintouch.d-flex img {
+    max-width: 60px;
+  }
+
+  ul.stepslist li {
+    height: 190px;
+  }
+
+  ul.stepslist {
+    gap: 14px;
+  }
+
+  li.treatment-listitem h6 {
+    font-size: 18px;
+  }
+
+  .doctorimg {
+    height: 180px;
+  }
+
+  .item-info.doctor-info h6 {
+    font-size: 18px;
+  }
+
+  .scroll-wrapper {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .about-tabsection .scroll-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .scrollerc {
+    background-color: #dad7d784;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+
+  div.scrollerc .nav-link {
+    width: 100%;
+    background: #fff;
+    padding: 8px 10px !important;
+    border-radius: 15px;
+  }
+
+  .scrollerc i {
+    display: none;
+  }
+
+  .scrollerc .nav-link.active,
+  .scrollerc .show > .nav-link {
+    background-color: #fff;
+  }
+
+  .specialtiy-tab a {
+    padding: 7px 2px;
+    background-color: #ebebeb;
+    border-radius: 12px;
+    margin: 2px;
+  }
+
+  .specialtiy-tab {
+    width: 100%;
+    border-right: 0px;
+  }
+
+  .health-package .about-info {
+    margin-left: 0px;
+  }
+
+  ul.center-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+
+  .heresection .hero-slider .slide {
+    /* padding: 165px 0px; */
+    padding: 0px 0px;
+  }
+
+  .appoinmentmainsec {
+    margin-top: 60px;
+    padding-bottom: 0px;
+  }
+  ul.hospital-serviedetails {
+    padding: 15px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+  }
+
+  section.expertisesec::before {
+    content: "";
+    height: 284px;
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .rtl section.expertisesec::before {
+    content: "";
+    height: 244px;
+    width: 245px;
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .responsive-top .contact-phone {
+    align-items: start;
+    gap: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd,
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd:link,
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd:visited,
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd:hover,
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+    font-size: 10px !important;
+  }
+  .goog-te-gadget img {
+    vertical-align: middle;
+    border: none;
+    transform: scale(0.7);
+  }
+
+  .appointment-wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .appointment-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_question
+    label.ipt_uif_question_title {
+    margin-top: 7px;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .appointment-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_question
+    > .ipt_uif_question_label {
+    margin-bottom: 9px;
+  }
+  .appointment-form .ipt-uif-custom-material-pink p {
+    font-size: 12px;
+  }
+
+  .centers .eyecarsection {
+    padding-top: 0px;
+  }
+
+  .centers ul.servicenav.nav {
+    margin-bottom: 35px;
+  }
+
+  section.centers {
+    padding-top: 50px;
+  }
+
+  .center-info {
+    padding: 0px;
+  }
+
+  .quote-form h3 {
+    font-size: 28px;
+    margin-top: 45px;
+  }
+
+  .quote-form h2 {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .button-doctor a {
+    background: #2566d760;
+    border: 2px solid #2d70e6ff;
+    border-radius: 10px;
+    padding: 5px 23px;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+
+  .insurens-rt .accordion-button {
+    font-size: 17px;
+  }
+
+  .responsive-top .goog-te-gadget {
+    font-size: 9px;
+  }
+
+  .responsive-top {
+    padding-right: 5px;
+  }
+
+  header .searchbutton {
+    display: none;
+    /* transform: translateY(24%); */
+    animation: bottomUp 0.32s ease-in-out;
+  }
+
+  @keyframes bottomUp {
+    from {
+      /* transform: translateY(40%); */
+      opacity: 0;
+    }
+    to {
+      /* transform: translateY(24%); */
+      opacity: 1;
+    }
+  }
+
+  header a.navbar-brand {
+    width: 105px;
+  }
+
+  .responisve-search {
+    display: block;
+    right: 11%;
+    height: 30px;
+    width: 30px;
+  }
+
+  .staffexperts .expertisetitle span img {
+    transform: scale(1.2);
+  }
+
+  .testimonials {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+
+  .heresection .hero-slider .owl-dots {
+  }
+  .heresection .hero-slider .owl-dots button {
+    padding: 3px 7px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.heresection {
+    margin-bottom: 30px;
+  }
+  .testimoinal-card .top iframe {
+    position: relative;
+    max-width: 450px;
+    height: 315px;
+  }
+
+  .item-info.doctor-info {
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  .searcharea {
+    padding-bottom: 20px;
+  }
+
+  #countrys img {
+    max-height: 72px;
+  }
+
+  .country .about-info h2 {
+    margin-top: 15px;
+    margin-bottom: 33px !important;
+    font-size: 22px;
+  }
+
+  section.expertisesec {
+    padding-bottom: 25px;
+    background-size: cover;
+  }
+
+  section.expertisesec::before {
+    content: "";
+    height: 310px;
+    width: 310px;
+    background-size: contain;
+  }
+
+  section.servicecontact h3 {
+    font-size: 27px;
+  }
+  section.servicecontact p {
+    font-size: 18px;
+  }
+
+  .fs-32 {
+    font-size: 26px !important;
+  }
+
+  .fs-38 {
+    font-size: 34px !important;
+  }
+
+  .about-info h2 {
+    font-size: 26px;
+  }
+
+  .lb-close {
+    right: 2%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  iframe {
+    height: 654px;
+  }
+
+  .heresection .hero-slider .slide {
+    /* padding: 130px 0px; */
+    padding: 0px 0px;
+  }
+
+  .heresection .hero-slider .owl-dots {
+    margin-top: -20px;
+  }
+
+  .appoinmentmainsec {
+    margin-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .responsive-top .contact-phone a {
+    font-size: 12px;
+  }
+
+  .responsive-top .btns {
+    width: 45%;
+  }
+
+  .responsive-top .btns select {
+    font-size: 11px;
+  }
+
+  .responsive-top .contact-phone a i {
+    font-size: 19px;
+  }
+  .insurens-lt ul li a {
+    font-size: 17px;
+  }
+
+  .insurance-mn {
+    padding-top: 35px;
+  }
+
+  .insurens-rt {
+    margin-top: 35px;
+  }
+
+  .insurens-rt .accordion-body table td ul {
+    font-size: 16px;
+  }
+
+  .insurens-rt .accordion-body table th {
+    font-size: 20px;
+  }
+
+  ul.stepslist li {
+    height: 210px;
+  }
+
+  .rakcare {
+    padding-top: 30px;
+  }
+  .rakcaretitle h3 {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .rakcaretitle p {
+    font-size: 16px;
+    padding-bottom: 25px;
+  }
+
+  .stepup h4 {
+    max-width: 310px;
+  }
+
+  .doctorimg {
+    height: 420px !important;
+  }
+
+  .item-info.doctor-info h6 {
+    font-size: 15px;
+  }
+
+  .item-info.doctor-info h5 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .row.content-coll {
+    flex-direction: column;
+  }
+
+  .col-lg-3.inner-form-left {
+    width: 100%;
+  }
+
+  .nav-link.bg-color {
+    max-width: 116px;
+    justify-content: center;
+  }
+
+  .row.content-coll .col-lg-9 {
+    width: 100%;
+  }
+
+  .row.content-coll .contact-form {
+    padding: 0px;
+  }
+
+  .about-info.contact-title h2 {
+    margin-bottom: 20px;
+  }
+
+  .about-info.contact-title {
+    margin-top: 0;
+  }
+
+  .locate .about-info {
+    margin-top: 0;
+  }
+
+  .about-info h6 {
+    font-size: 18px;
+  }
+
+  section.about-tabsection {
+    padding: 30px 0;
+  }
+
+  .patienttestimonial .about-info {
+    margin-top: 0;
+  }
+
+  section {
+    padding: 20px 0;
+  }
+
+  .contactsubdetail h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+
+  .about-info h2 {
+    font-size: 32px;
+  }
+
+  .contactsubdetail p {
+    font-size: 16px;
+  }
+
+  .contactsubdetail {
+    margin-bottom: 20px;
+  }
+
+  .servicemaintitle {
+    margin-top: 16px;
+  }
+
+  .servicemaintitle h3 {
+    font-size: 34px;
+  }
+
+  .opd h4 {
+    font-size: 24px;
+  }
+
+  .opd.mb-5 {
+    margin-bottom: 20px !important;
+  }
+
+  .owl-nav {
+    gap: 30px !important;
+    display: flex;
+  }
+
+  header .searchbutton {
+    transform: translateX(-50%);
+    bottom: -63px !important;
+    max-width: 100% !important;
+    left: 50% !important;
+    height: auto;
+    width: 97%;
+    padding: 6px 0px;
+  }
+
+  .searchbutton .searchimage {
+    height: 43px;
+  }
+
+  span.goldimg {
+    width: 120px;
+    height: 120px;
+  }
+  /* 
+    header .searchbutton a {
+        width: 43px !IMPORTANT;
+        height: 43px !IMPORTANT;
+    } */
+
+  .searchbutton input {
+    font-size: 16px;
+  }
+
+  .search_result {
+    display: block;
+    width: 97%;
+    left: 1%;
+    top: 86%;
+  }
+
+  .search_result ul li a {
+    font-size: 14px;
+  }
+
+  .rakhintegratedtitle {
+    border-radius: 40px 0px;
+    margin-bottom: 30px;
+  }
+
+  .rakhintegratedtitle h3 {
+    font-size: 22px;
+  }
+
+  ul.socialmedia a {
+    height: 47px;
+  }
+
+  span.herobanner {
+    height: calc(100% - 80px);
+    object-fit: cover !important;
+  }
+
+  footer .col-lg-2:last-child {
+    width: 66%;
+  }
+
+  .rasaibanner span {
+    font-size: 20px;
+  }
+
+  .bg-white h3 {
+    font-size: 30px;
+    margin-bottom: 4px;
+  }
+
+  .bg-white p {
+    font-size: 20px;
+  }
+
+  .rasaibanner a {
+    font-size: 18px;
+  }
+
+  .rasaibanner a i {
+    font-size: 14px;
+  }
+
+  ul#brand img {
+    height: 80px;
+  }
+
+  .expertisetitle h3 {
+    font-size: 25px;
+  }
+
+  /* about */
+  ul.d-flex.align-items-center {
+    flex-direction: column;
+  }
+
+  ul.d-flex.align-items-center li.w-50 {
+    width: 100% !important;
+  }
+
+  .home-info-bg {
+    margin-bottom: 20px;
+  }
+
+  section.cardiologysection {
+    /* margin-top: 160px; */
+  }
+
+  .home-info-bg {
+    gap: 20px;
+  }
+
+  .home-info-bg .banner-img {
+    padding-right: 20px;
+  }
+
+  /* speciality */
+  li.speciality-bg {
+    width: calc(100% / 5 - -126px);
+  }
+
+  .explore-info a.carrer-btn {
+    padding: 7px;
+    max-width: 150px;
+  }
+
+  section.n_patientservice .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section.n_patientservice .col-lg-2 {
+    width: 50%;
+  }
+
+  section.n_patientservice .col-lg-10 {
+    width: 100%;
+  }
+
+  .about-info {
+    margin-top: 30px;
+  }
+
+  .roomrow {
+    row-gap: 0;
+  }
+
+  .home-info-bg h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .home-info-bg span {
+    font-size: 18px!important;
+    margin-bottom: 10px!important;
+  }
+  .home-info-bg {
+    gap: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .banner-img:after {
+    left: 65px;
+  }
+
+  .banner-img:after {
+    height: 60px;
+  }
+
+  .about-info.hospitality-about h3 {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  thead.heading-bgpink tr th {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  tbody.table-body tr td {
+    padding: 2px 10px;
+    font-size: 14px;
+  }
+
+  .accordion-button {
+    padding: 16px 16px 16px 37px;
+    font-size: 18px;
+  }
+
+  .discount-content {
+    max-width: calc(100% - -17px);
+  }
+
+  .about-info.discount-content {
+    margin-left: 0;
+  }
+
+  ul.discountul li {
+    font-size: 18px;
+  }
+
+  ul.discountul p {
+    font-size: 18px;
+  }
+
+  section.rakinternationalpatientservice .col-lg-2 {
+    width: 80%;
+  }
+
+  ul.stepslist li {
+    height: 200px;
+  }
+
+  ul.stepslist {
+    gap: 12px;
+  }
+
+  ul.stepslist li span {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .eyecarsection .col-lg-2 {
+    width: 70%;
+  }
+
+  ul.heroicon a {
+    width: 41px;
+    height: 41px;
+    font-size: 22px;
+  }
+
+  ul.servicenav.nav {
+    margin-bottom: 0;
+  }
+
+  .category-title h2 {
+    font-size: 35px;
+  }
+
+  li.treatment-listitem h6 {
+    font-size: 16px;
+  }
+
+  .patienttestimonialtitle {
+    margin-bottom: 10px;
+  }
+
+  .stepforconnect p {
+    font-size: 18px;
+  }
+
+  section.servicecontact {
+    background-size: cover;
+    background-position: center;
+  }
+
+  section.medicalcontact {
+    padding-top: 35px;
+    padding-bottom: 55px;
+  }
+
+  .medicalcontact .contactsubdetail {
+    height: fit-content !important;
+    margin: 10px 0px;
+  }
+
+  .medicalcontact .contactsubdetail p:first-child {
+    font-size: 21px;
+    margin-bottom: 12px;
+    line-height: 1.3;
+  }
+
+  .health-package .about-info {
+    margin-left: 0px;
+    padding: 35px 23px;
+  }
+
+  .package-cta .btn span {
+    font-size: 16px;
+  }
+  .package-cta h1 {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  .package-cta h1 {
+    font-size: 25px;
+  }
+
+  .quick-links li {
+    margin-right: 10px;
+  }
+
+  .responsive-top .contact-phone a i {
+    font-size: 16px;
+  }
+
+  .responsive-top .trp-language-switcher .trp-ls-shortcode-current-language {
+    width: 121px !important;
+    padding: 0px 0px;
+  }
+
+  .responsive-top .trp-language-switcher > div > a {
+    font-size: 14px;
+  }
+
+  .active.plate4 .x {
+    transition: transform 400ms 100ms;
+    transform: scale(1);
+    top: -165%;
+  }
+
+  .trp-language-switcher > div {
+
+    background-position: calc(100% - 16px) calc(1em + -3px), calc(100% - 3px) calc(1em + 0px);
+  }
+
+  .treatmentoption li img {
+    width: 42px;
+    height: 42px;
+  }
+
+  .maternity-packages {
+    width: 100%;
+  }
+
+  .callback-section {
+    padding-bottom: 5px;
+  }
+
+  li.speciality-boxs {
+    max-height: 220px;
+    width: 100%;
+  }
+  ul.speciality-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .speciality-boxs .speciality-iconbg {
+    /* background: #D684B4; */
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .boardmemebers .img-info h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .responisve-search {
+    display: block;
+    right: 14%;
+    height: 28px;
+    width: 28px;
+  }
+  .heresection .hero-slider .slide {
+    /* padding: 75px 0px; */
+    padding: 0px 0px;
+  }
+
+  .appoinmentmainsec {
+    margin-top: 0px;
+    padding-top: 5px;
+  }
+
+  .stepdown i {
+    max-width: 60px;
+  }
+
+  .stepup h4 {
+    font-size: 19px;
+    max-width: 260px;
+  }
+
+  .stepdown p {
+    font-size: 15px;
+  }
+
+  .blogimg.mr-5 {
+    margin-right: 0;
+  }
+
+  ul.stepslist li {
+    width: 100%;
+  }
+
+  .bg-grey {
+    padding: 20px;
+  }
+
+  .about-info h6 {
+    font-size: 16px;
+  }
+
+  .bg-grey {
+    padding: 20px;
+  }
+
+  .explore-info h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .explore-info p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .explore-info {
+    padding: 20px;
+  }
+
+  .nav-link {
+    width: 61%;
+  }
+
+  .patienttestimonialtitle h2 {
+    font-size: 24px;
+  }
+
+  .contactdetail p {
+    font-size: 24px;
+  }
+
+  .contactdetail h3 {
+    font-size: 24px;
+  }
+
+  .stepforconnect h3 {
+    font-size: 20px;
+  }
+
+  .furtherconnect p {
+    font-size: 18px;
+  }
+
+  .row {
+  }
+
+  .patienttestimonialtitle + .row {
+    gap: 20px;
+  }
+
+  .heroinfo h1 {
+    margin-bottom: 10px !important;
+  }
+
+  ul#pills-tab {
+    padding: 10px;
+  }
+
+  div#pills-home .row .col-lg-6 {
+    width: 100%;
+  }
+
+  div#pills-home .row .col-lg-6 + .col-lg-3 {
+    width: 100%;
+  }
+
+  .col-lg-3 ul#pills-tab {
+    justify-content: center;
+    margin-bottom: 0 !important;
+  }
+
+  .col-lg-3 ul#pills-tab li {
+    width: 48%;
+  }
+
+  div#v-pills-tab button {
+    font-size: 16px;
+  }
+
+  ul#pills-tab li button {
+    width: 100% !important;
+    font-size: 14px;
+    padding: 9px 42px 10px 10px;
+    border-radius: 13px !important;
+  }
+  ul#pills-tab li button .info-btn {
+    font-size: 16px;
+  }
+  /* justify-content: center; */
+
+  .body-part#pills-tab li {
+    margin-right: 10px;
+  }
+  .body-part#pills-tab li button {
+    padding: 10px 40px;
+    margin-right: 10px;
+  }
+
+  .scrollerc {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.scrollerc .nav-link {
+    width: 100%;
+    background: #fff;
+    padding: 7px 9px !important;
+  }
+
+  .expertisetitle {
+    padding: 20px;
+    padding-bottom: 8px;
+  }
+
+  .rakhintegratedtitle h3 {
+    font-size: 21px;
+    line-height: 24px;
+  }
+
+  .rakhintegratedtitle {
+    border-radius: 20px 0px;
+  }
+
+  .rakhintegratedsec div#v-pills-tab {
+    gap: 5px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow: auto;
+    flex-direction: row;
+  }
+
+  .rakhintegratedsec div#v-pills-tab button {
+    padding: 6px !important;
+    font-size: 14px;
+  }
+
+  .servicecalltitle h3 {
+    font-size: 24px;
+  }
+
+  section.servicesec {
+    padding: 30px 0px;
+  }
+
+  section.rasai {
+    padding-top: 50px;
+  }
+
+  .rasaititle h3 {
+    font-size: 30px;
+  }
+
+  .rasaititle p {
+    font-size: 20px;
+  }
+
+  .footermenu ul li a {
+    font-size: 14px;
+    max-width: 190px;
+  }
+
+  footer {
+    padding: 40px 0px 0px;
+  }
+
+  .footermenu h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .coprights p {
+    font-size: 14px;
+  }
+
+  div#v-pills-tab::-webkit-scrollbar {
+    display: none;
+  }
+
+  section.heresection {
+    height: auto;
+    margin-bottom: 25px;
+  }
+
+  .appoinmentmainsec {
+    margin-top: 20px;
+  }
+
+  ul#pills-tab li button img {
+    height: 34px;
+  }
+
+  .appoinmentdetail h3 {
+    font-size: 16px;
+    border-width: 2px;
+  }
+
+  ul.socialmediamain a i {
+    font-size: 30px;
+  }
+
+  ul.socialmediamain a span {
+    letter-spacing: 0;
+    font-size: 14px;
+  }
+
+  footer .col-lg-2 {
+    width: 49%;
+    margin-bottom: 27px;
+  }
+  footer .col-lg {
+    width: 100%;
+  }
+
+  .coprights {
+    margin-top: 30px;
+  }
+
+  .footermenu ul li a {
+    font-size: 16px;
+  }
+
+  ul.socialmediamain a h6 {
+    font-size: 16px;
+  }
+
+  /* cardiology */
+  .appointment-form {
+    padding: 20px 7px;
+  }
+
+  .speciality-form {
+    padding: 0px;
+    margin-top: 25px;
+  }
+
+  /* doctor */
+  .doctor-info ul li h6 {
+    font-size: 16px;
+  }
+
+  .doctor-info {
+    margin-bottom: 20px;
+  }
+
+  /* eyecare */
+  .eyecare-doctors {
+    flex-direction: column;
+  }
+
+  /* find */
+  .eyecare-doctors.find.row .col-lg-3.col-md-3.col-sm-3 {
+    width: 100%;
+  }
+
+  /* speciality */
+  /* li.speciality-bg {
+    width: calc(100% / 5 - -95px);
+  } */
+
+  ul.footersocialmedia.contact-socialmedia {
+    margin-right: 0;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .about-info.hospitality-about h3 {
+    font-size: 17px;
+  }
+
+  ul.stepslist {
+    gap: 9px;
+  }
+
+  ul.stepslist li {
+    height: 230px;
+  }
+
+  .about-info h2 {
+    font-size: 28px;
+  }
+
+  .eyecarsection .col-lg-2 {
+    width: 80%;
+  }
+
+  .doctorimg {
+    height: 350px;
+  }
+
+  .healthcheckuppackage {
+    height: auto;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+  }
+
+  .healthcheckuppackage h3 {
+    font-size: 20px;
+  }
+
+  .healthcheckuppackage p {
+    font-size: 20px;
+  }
+
+  section.healthcheckup .col-lg-4.mb-4 {
+    margin-bottom: 0 !important;
+  }
+
+  .servicemaintitle h3 {
+    font-size: 32px;
+  }
+
+  .quote-form h3 {
+    font-size: 28px;
+  }
+
+  .servicemaintitle p {
+    font-size: 15px;
+  }
+
+  .appointment-form .ipt-uif-custom-material-pink.type_0 .ipt-eform-content {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: none;
+    margin-top: 10px !important;
+    padding: 0px 10px 20px 7px !important;
+  }
+
+  .speciality-boxs .speciality-iconbg {
+    margin-bottom: 20px;
+  }
+
+  .fs-32 {
+    font-size: 26px !important;
+  }
+  .about-info h4 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* ul.speciality-grid {
+    grid-template-columns: 1fr ;
+  } */
+
+  li.speciality-bg {
+    width: 100%;
+  }
+  .speciality-text h5 {
+    font-size: 20px;
+  }
+
+  .speciality-boxs .speciality-text h5 {
+    font-size: 16px;
+  }
+
+  li.speciality-boxs {
+    padding: 25px 7px;
+    max-height: 190px;
+  }
+}
+
+@media only screen and (max-width: 349px) {
+  .stepup h4 {
+    max-width: 180px;
+  }
+
+  ul.stepslist li {
+    width: 100%;
+    height: 260px;
+  }
+
+  ul.footersocialmedia.contact-socialmedia li a img {
+    min-width: 12px;
+  }
+
+  .header-right button {
+    font-size: 18px;
+  }
+
+  a.btn-upload {
+    font-size: 15px;
+    padding: 11px 10px;
+  }
+
+  .about-info h2 {
+    font-size: 30px;
+  }
+
+  .tab-content .row {
+    margin-bottom: 20px;
+  }
+
+  .about-info h4 {
+    font-size: 20px;
+  }
+
+  .about-info {
+    margin-top: 30px;
+  }
+
+  .nav-link {
+    width: 70%;
+  }
+
+  /* about */
+  section.awardsec {
+    padding-top: 1px;
+  }
+
+  section.about-tabsection {
+    padding-bottom: 0;
+  }
+
+  /* doctor */
+  .appointment-form.margin-top {
+    margin-bottom: 20px;
+  }
+
+  /* speciality */
+  li.speciality-bg {
+    width: 100%;
+  }
+
+  .more h3 {
+    font-size: 18px;
+  }
+
+  ul.footersocialmedia.contact-socialmedia {
+    margin-right: 0;
+  }
+
+  .bg-grey {
+    padding: 30px 10px;
+  }
+
+  .inner-form-left div#v-pills-tab {
+    gap: 8px;
+  }
+
+  .nav-pills .nav-link.bg-color.active,
+  .nav-pills .show > .nav-link {
+    font-size: 16px !important;
+  }
+
+  .nav-link.bg-color {
+    font-size: 16px !important;
+  }
+
+  section.n_patientservice .col-lg-2 {
+    width: 60%;
+  }
+
+  ul.stepslist {
+    gap: 7px;
+  }
+
+  ul.stepslist li span {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  li.treatment-listitem h6 {
+    font-size: 16px;
+  }
+
+  section.about-tabsection.padding {
+    padding: 30px 10px;
+  }
+}

@@ -1,0 +1,21 @@
+Logo:
+#4275cdff - Text color
+#ffffff - Background color 
+
+
+#c383a6- #2d70e6ff // border
+#dfb0cd- #2566d760 bg  light
+#1267f8ff-> #206df4ff // toltip border
+#1267f8ff-> #1267f8ff // toltip border
+#d381b1-> ##2958a8 // toltip border
+#d083b2-> #2858a9 // toltip border
+#DFB0CD-> #2958a8 // toltip border
+
+
+
+OLD Theme : 
+Theme COlor
+Varient 1  : #d372a4 -> #2958a8 (MainColor)
+Varient 2  : #e74d4aff -> #e74d4aff
+
+filter: brightness(0) saturate(100%) invert(32%) sepia(23%) saturate(1635%) hue-rotate(199deg) brightness(100%) contrast(98%);

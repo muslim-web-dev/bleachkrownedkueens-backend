@@ -1,0 +1,1056 @@
+.servicemaintitle .ipt-eform-content {
+  background: #ebebeb !important;
+  border-radius: 20px !important;
+  max-width: 78% !important;
+  padding: 20px 70px !important;
+  margin: 44px auto !important;
+}
+
+.servicemaintitle .ipt_uif_divider_text .ipt_uif_divider_text_inner {
+  font-size: 32px;
+}
+
+.servicemaintitle .ipt-uif-custom-material-pink p {
+  color: #111;
+  margin: 0 0 10px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 31px;
+}
+
+.carrer-form #ipt_fsqm_form_5_pinfo_10_value,
+.carrer-form #ipt_fsqm_form_17_pinfo_10_value,
+.carrer-form #ipt_fsqm_form_18_pinfo_10_value,
+.carrer-form #ipt_fsqm_form_19_pinfo_10_value,
+.carrer-form #ipt_fsqm_form_20_pinfo_10_value,
+.carrer-form #ipt_fsqm_form_21_pinfo_10_value,
+.carrer-form #ipt_fsqm_form_22_pinfo_10_value {
+  background: #fff !important;
+  /* display: none; */
+  padding: 2px 0px !important;
+  /* margin-top: 17px !important; */
+  width: 90% !important;
+  padding-left: 41px !important;
+}
+
+.carrer-form
+  .ipt-uif-custom-material-pink
+  .ipt_fsqm_container_divider
+  > .ipt_uif_column_inner,
+.carrer-form
+  .ipt-uif-custom-material-pink
+  .ipt_fsqm_container_heading
+  > .ipt_uif_column_inner {
+  border: none;
+}
+
+.servicemaintitle .input-field.has-icon .ipt-icomoon-calendar {
+  top: 64% !important;
+}
+
+.carrer-form .input-field.has-icon .ipt-icomoon-calendar {
+  top: 51% !important;
+}
+
+.servicemaintitle
+  span.select2.select2-container.select2-container--eform-material {
+  padding: 0px 20px !important;
+  border-radius: 10px !important;
+  width: 100% !important;
+  background: white !important;
+  margin: 0 !important;
+  position: relative;
+}
+
+.servicemaintitle
+  .ipt-uif-custom-material-pink
+  .ipt_fsqm_container_divider
+  > .ipt_uif_column_inner,
+.ipt-uif-custom-material-pink
+  .ipt_fsqm_container_heading
+  > .ipt_uif_column_inner {
+  border: 0px;
+}
+
+.servicemaintitle .ipt-uif-custom-material-pink .ipt_uif_divider {
+  padding: 0 0 14px;
+  color: #212121;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.servicemaintitle .ipt_uif_datepicker {
+  height: 40px !important;
+  background: #fff !important;
+  /* display: none; */
+  padding: 2px 0px !important;
+  margin-top: 17px !important;
+  width: 90% !important;
+  padding-left: 41px !important;
+}
+
+.servicemaintitle button#ipt_fsqm_form_5_button_submit {
+  max-width: 127px !important;
+  background: #b674a3 !important;
+  border: 2px solid #9a587f !important;
+  border-radius: 10px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  height: 43px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
+.servicemaintitle
+  .ipt-uif-custom-material-pink
+  .eform-dp-input-field
+  .datepicker
+  ~ .eform-dp-clear {
+  line-height: 2em;
+  width: 36px;
+  text-align: center;
+  position: absolute;
+  right: 8px;
+  top: 0px;
+  display: block;
+  font-size: 25px;
+}
+
+.servicemaintitle
+  .ipt-uif-custom-material-pink
+  .ipt_uif_container
+  .ipt_uif_container_inner {
+  padding: 14px 14px 0px;
+  background: #fff;
+}
+
+.carrer-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question.ipt_uif_question_vertical
+  > .ipt_uif_question_label {
+  margin-bottom: 2px;
+}
+
+/* ////////////////////////   Appoinment form  ////////////////////////////////*/
+
+.appointment-form .input-field.has-icon .ipt-icomoon-calendar {
+  top: 5% !important;
+}
+
+.appointment-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > input {
+  padding-left: 3em !important;
+}
+
+/* ////////////////////////   Contact form  ////////////////////////////////*/
+.contact-form .ipt-uif-custom-material-pink .input-field .prefix ~ label {
+  margin-left: 1em;
+}
+
+.contact-form .input-field.has-icon label {
+  position: absolute !important;
+  top: -37% !important;
+  transform: translateY(-67%) !important;
+  width: 100% !important;
+  color: #000 !important;
+}
+
+.contact-form .ipt-uif-custom-material-pink .input-field {
+  position: relative;
+  margin-top: 50px;
+}
+
+.contact-form button#ipt_fsqm_form_9_button_submit,
+.contact-form button#ipt_fsqm_form_13_button_submit,
+.contact-form #ipt_fsqm_form_12_button_submit {
+  max-width: 127px !important;
+  background: #b674a3 !important;
+  border: 2px solid #9a587f !important;
+  border-radius: 10px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  height: 43px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 26px !important;
+  margin-bottom: 0px !important;
+}
+
+.contact-form input#ipt_fsqm_form_9_pinfo_15_value,
+.contact-form input#ipt_fsqm_form_9_pinfo_2_value,
+.contact-form input#ipt_fsqm_form_9_pinfo_3_value,
+.contact-form input#ipt_fsqm_form_12_pinfo_15_value,
+.contact-form input#ipt_fsqm_form_12_pinfo_2_value,
+.contact-form input#ipt_fsqm_form_12_pinfo_3_value,
+.contact-form input#ipt_fsqm_form_13_pinfo_15_value,
+.contact-form input#ipt_fsqm_form_13_pinfo_2_value,
+.contact-form input#ipt_fsqm_form_13_pinfo_3_value {
+  padding-left: 40px !important;
+}
+
+.contact-form .ipt-uif-custom-material-pink .input-field .prefix {
+  font-size: 22px !important;
+}
+
+.contact-form .ipt-uif-custom-material-pink .input-field .prefix.active {
+  color: #e05b9d !important;
+  font-size: 22px !important;
+}
+
+.contact-form span.select2.select2-container.select2-container--eform-material {
+  padding-left: 0px !important;
+  margin-top: 10px !important;
+  width: 95% !important;
+}
+
+.contact-form
+  .ipt-uif-custom-material-pink
+  .valid
+  ~ .select2-container
+  .select2-selection--multiple,
+.ipt-uif-custom-material-pink
+  .valid
+  ~ .select2-container
+  .select2-selection--single {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.contact-form
+  .ipt-uif-custom-material-pink.type_0
+  .ipt-eform-content
+  .ipt-eform-material-button-container.ipt_fsqm_form_button_container {
+  margin: 0px !important;
+}
+
+.contact-form
+  .feedback
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question.ipt_uif_question_vertical
+  > .ipt_uif_question_label {
+  display: none;
+}
+
+.contact-form
+  .feedback
+  .ipt-uif-custom-material-pink
+  textarea.materialize-textarea {
+  overflow-y: hidden;
+  padding: 0.8em 0 1.6em;
+  resize: none;
+  min-height: 3em;
+  margin: 0px !important;
+  width: 97% !important;
+}
+
+/* /////////////////////////  Ancestary form /////////////////////// */
+
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input:not([type]),
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="date"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="datetime-local"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="datetime"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="email"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="number"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="password"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="search"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="tel"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="text"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="time"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="url"],
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  textarea.materialize-textarea {
+  border: 1px solid #9e9e9e;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px hsla(0, 0%, 62%, 0.3), 0 0 0 0 transparent;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  width: calc(100% - 1em - 2px);
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+}
+
+.ancestory-form .ipt-uif-custom-material-pink .input-field,
+.ancestory-form .ipt-uif-custom-material-pink select {
+  margin-top: 26px !important;
+}
+
+.ancestory-form .select2-container--eform-material {
+  margin-top: 20px !important;
+}
+
+.ancestory-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question.ipt_uif_question_vertical
+  > .ipt_uif_question_label {
+  margin-bottom: 0px;
+}
+
+.ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > input,
+.ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > textarea {
+  background: #fff !important;
+}
+
+.ipt-uif-custom-material-pink.eform-override-element-boxy
+  input[type="text"].valid:focus {
+  box-shadow: none !important;
+}
+
+.ipt-uif-custom-material-pink .ipt-eform-content {
+  box-shadow: none !important;
+  background: #fff;
+}
+
+.ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > label.active {
+  -webkit-transform: translateY(-150%) translateX(-1em) !important;
+  transform: translateY(-186%) translateX(-1em) !important;
+  font-size: 15px !important;
+  color: #111 !important;
+}
+
+.ancestory-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > label.active {
+  transform: none !important;
+}
+
+.ancestory-form .eform-button-container-inner button {
+  max-width: 127px !important;
+  background: #b674a3 !important;
+  border: 2px solid #9a587f !important;
+  border-radius: 10px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  height: 43px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ancestory-form .ipt-uif-custom-material-pink .input-field label {
+  color: #111 !important;
+  position: absolute;
+  top: -64% !important;
+  left: 0;
+  font-size: 1em;
+  cursor: text;
+  padding-left: 0px !important;
+  transition: 0.2s ease-out;
+  font-weight: 300;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* // callback-form  */
+.callback-form .ipt-uif-custom-material-pink.type_0 .ipt-eform-content {
+  padding: 0px;
+}
+
+.callback-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  label.ipt_uif_question_title
+  .ipt_uif_question_required {
+  display: none;
+}
+
+.callback-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_question_content {
+  width: 100% !important;
+  padding-left: 0px !important;
+  text-align: left !important;
+  margin-bottom: 20px;
+}
+
+.callback-form .ipt-uif-custom-material-pink button {
+  max-width: 127px !important;
+  background: #b674a3 !important;
+  border: 2px solid #9a587f !important;
+  border-radius: 10px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  height: 43px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* Request a quote */
+
+.quote-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_question_label {
+  display: none !important;
+}
+.quote-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_question_content {
+  width: 100% !important;
+  padding-left: 0px !important ;
+  padding-bottom: 17px !important;
+}
+
+.quote-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > label.active {
+  font-size: 12px !important;
+}
+
+.quote-form
+  .appointment-form
+  .ipt-uif-custom-material-pink.type_0
+  .ipt-eform-content {
+  padding-top: 32px !important;
+}
+
+.appointment-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > label.active {
+  display: none;
+}
+
+.appointment-form
+  .servicemaintitle
+  .input-field.has-icon
+  .ipt-icomoon-calendar {
+  top: 0% !important;
+}
+
+/* / Speciality page .appointment-form  */
+.speciality-form {
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.speciality-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  label.ipt_uif_question_title {
+  display: none !important;
+}
+
+.speciality-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_question_content {
+  width: 100%;
+  padding-left: 0px !important;
+}
+
+.speciality-form .ipt-uif-custom-material-pink .input-field label {
+  left: 10px;
+}
+
+/* Virtual option form */
+
+.virtual-form .ipt-uif-custom-material-pink.type_0 .ipt-eform-content {
+  background: #ebebeb !important;
+  border-radius: 20px !important;
+  max-width: 78% !important;
+  padding: 20px 70px !important;
+  margin: 44px auto !important;
+}
+/* .virtual-form .ipt-uif-custom-material-pink .ipt_uif_question .ipt_uif_question_label {
+  width: 100%;
+
+} */
+
+.virtual-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > label.active {
+  display: none !important;
+}
+
+.virtual-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_question_content {
+  width: 100%;
+  padding: 0px;
+}
+
+.virtual-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_column
+  .ipt_uif_column_inner.side_margin {
+  padding-bottom: 12px;
+}
+
+.virtual-form .input-field.has-icon .ipt-icomoon-calendar {
+  top: 0px !important;
+}
+
+.virtual-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  label.ipt_uif_question_title {
+  margin-bottom: 12px;
+}
+
+.virtual-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_label_column.column_4 {
+  width: fit-content;
+}
+
+.virtual-form
+  .ipt-uif-custom-material-pink
+  .ipt-eform-material-button-container.ipt_fsqm_form_button_container.ipt_fsqm_form_button_container--classic
+  .eform-button-container-inner
+  .ui-button {
+  max-width: 127px !important;
+  background: #b674a3 !important;
+  border: 2px solid #9a587f !important;
+  border-radius: 10px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  height: 43px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.virtual-form
+  .ipt-uif-custom-material-pink.type_0
+  .ipt-eform-content
+  .ipt-eform-material-button-container.ipt_fsqm_form_button_container {
+  margin: 0px;
+}
+
+/*----- Call bac form ------ */
+
+.requestcall-form .ipt-eform-content {
+  background: #ebebeb !important;
+  border-radius: 20px !important;
+  max-width: 50% !important;
+  padding: 20px 35px !important;
+  margin: 44px auto !important;
+}
+
+.requestcall-form .ipt-uif-custom-material-pink.type_0 .ipt-eform-content {
+  background: #ebebeb !important;
+}
+
+.requestcall-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_question_label {
+  width: 100%;
+}
+.requestcall-form
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+  .input-field.has-icon
+  > label.active {
+  display: none !important;
+}
+
+.requestcall-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_question_content {
+  width: 100%;
+  padding: 0px;
+}
+
+.requestcall-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_column
+  .ipt_uif_column_inner.side_margin {
+  padding-bottom: 12px;
+}
+
+.requestcall-form .input-field.has-icon .ipt-icomoon-calendar {
+  top: 0px !important;
+}
+
+.requestcall-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  label.ipt_uif_question_title {
+  margin-bottom: 12px;
+}
+
+.requestcall-form
+  .ipt-uif-custom-material-pink
+  .ipt_uif_question
+  .ipt_uif_label_column.column_4 {
+  width: fit-content;
+}
+
+.requestcall-form
+  .ipt-uif-custom-material-pink
+  .ipt-eform-material-button-container.ipt_fsqm_form_button_container.ipt_fsqm_form_button_container--classic
+  .eform-button-container-inner
+  .ui-button {
+  max-width: 127px !important;
+  background: #b674a3 !important;
+  border: 2px solid #9a587f !important;
+  border-radius: 10px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  height: 43px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.requestcall-form
+  .ipt-uif-custom-material-pink.type_0
+  .ipt-eform-content
+  .ipt-eform-material-button-container.ipt_fsqm_form_button_container {
+  margin: 0px;
+}
+
+/* Job application form */
+
+.carrer-form .ipt-eform-content {
+  background: #ebebeb !important;
+  border-radius: 20px !important;
+  max-width: 78% !important;
+  padding: 20px 70px !important;
+  margin: 44px auto !important;
+}
+
+.carrer-form .ipt-uif-custom-material-pink .input-field input {
+  background-color: #fff;
+}
+
+.carrer-form
+  .ipt-uif-custom-material-pink
+  .ipt-eform-material-button-container.ipt_fsqm_form_button_container.ipt_fsqm_form_button_container--classic
+  .eform-button-container-inner
+  .ui-button {
+  max-width: 127px !important;
+  background: #b674a3 !important;
+  border: 2px solid #9a587f !important;
+  border-radius: 10px;
+  padding: 6px 30px !important;
+  font-size: 18px !important;
+  height: 43px;
+  color: #fff !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+  text-transform: capitalize;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.ipt-uif-custom-material-pink input:not([type]):focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="date"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink
+  input[type="datetime-local"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="datetime"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="email"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="number"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="password"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="search"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="tel"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="text"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="time"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink input[type="url"]:focus:not([disabled]),
+.ipt-uif-custom-material-pink
+  textarea.materialize-textarea:focus:not([disabled]) {
+  background-color: #fff !important;
+}
+
+/*----------------------------  RTL FORMs  ------------------------------------*/
+
+.rtl .ipt-uif-custom-material-pink .ipt_uif_divider .ipt_uif_divider_text {
+  justify-content: end;
+}
+
+.rtl .ipt-uif-custom-material-pink .ipt_uif_divider .ipt_uif_scroll_to_top {
+  float: left !important;
+}
+
+.rtl .ipt_uif_front .input-field.has-icon input,
+.rtl .ipt_uif_front .input-field.has-icon textarea {
+  margin-right: 0 !important;
+}
+
+.rtl .ancestory-form .ipt-uif-custom-material-pink .input-field label {
+  left: auto;
+  right: -35px;
+}
+
+.rtl
+  .servicemaintitle
+  .ipt-uif-custom-material-pink
+  .eform-dp-input-field
+  .datepicker
+  ~ .eform-dp-clear {
+  right: inherit;
+  left: 2px;
+}
+
+.rtl
+  .ipt-uif-custom-material-pink
+  .ipt_uif_divider.ipt_uif_align_center
+  .ipt_uif_divider_text {
+  justify-content: end;
+}
+.servicemaintitle .ipt-uif-custom-material-pink p {
+  text-align: start;
+}
+
+.rtl .input-field.has-icon i {
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%);
+  left: 25px !important;
+}
+
+.rtl .input-field.has-icon i {
+  position: absolute;
+  top: 50% !important;
+  transform: translateY(-50%);
+  right: 14px !important;
+  display: none !important;
+}
+
+.rtl .carrer-form .input-field.has-icon .ipt-icomoon-calendar {
+  top: 51% !important;
+  right: 87% !important;
+}
+
+.rtl input {
+  text-align: right;
+}
+
+
+.rtl .carrer-form  .input-field.has-icon .ipticm {
+  left: 100% !important;
+}
+
+.rtl .ipt_uif_front .input-field.has-icon input ~ label,
+.rtl .ipt_uif_front .input-field.has-icon textarea ~ label {
+  padding-right: 0px;
+  margin-right: 0px;
+  right: 20px;
+}
+
+.rtl .ipt-uif-custom-material-pink .ipt_uif_container .ipt_uif_container_head h3 {
+  text-align: right;
+}
+
+.rtl .ipt-uif-custom-material-pink .input-field.has-icon~.formError {
+  right: 1em !important;
+}
+
+.select2-container[dir=rtl] .select2-selection--single .select2-selection__rendered {
+  text-align: right;
+}
+
+
+
+.ipt-uif-custom-material-pink .ipt-eform-material-button-container.ipt_fsqm_form_button_container.ipt_fsqm_form_button_container--classic {
+  background-color: #ebebeb !important;
+}
+
+.ipt-uif-custom-material-pink.type_0 .ipt-eform-content {
+  background: #ebebeb !important; 
+}
+
+
+@media only screen and (max-width: 991px) {
+  .servicemaintitle .ipt-eform-content {
+    max-width: 100% !important;
+  }
+
+  .servicemaintitle .ipt-eform-content {
+    padding: 15px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .servicemaintitle .ipt_uif_divider_text .ipt_uif_divider_text_inner {
+    font-size: 28px;
+  }
+  .servicemaintitle .ipt-uif-custom-material-pink p {
+    font-size: 15px;
+  }
+
+  .appointment-form
+    .ipt-uif-custom-material-pink.type_0
+    .ipt-eform-content
+    .ipt-eform-material-button-container.ipt_fsqm_form_button_container {
+    margin: 0px !important;
+  }
+
+  .appointment-form .eform-button-container-inner button {
+    max-width: 127px !important;
+    padding: 6px 30px !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+    margin-bottom: 00px !important;
+  }
+
+  .servicemaintitle .eform-button-container-inner button {
+    max-width: 127px !important;
+    padding: 6px 30px !important;
+    font-size: 15px !important;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .contact-form button#ipt_fsqm_form_9_button_submit,
+  .contact-form button#ipt_fsqm_form_13_button_submit,
+  .contact-form #ipt_fsqm_form_12_button_submit {
+    max-width: 127px !important;
+    padding: 6px 30px !important;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .servicemaintitle .ipt_uif_divider_text .ipt_uif_divider_text_inner {
+    font-size: 28px;
+  }
+
+  .servicemaintitle .ipt-uif-custom-material-pink p {
+    font-size: 14px;
+  }
+
+  .contact-form .ipt-uif-custom-material-pink .input-field .prefix ~ label {
+    margin-left: 1em;
+    font-size: 14px;
+  }
+
+  .contact-form
+    span.select2.select2-container.select2-container--eform-material {
+    width: 100% !important;
+  }
+
+  .ipt-uif-custom-material-pink.type_0 .ipt-eform-content {
+    padding: 10px !important;
+    padding-top: 0px !important;
+  }
+
+  .callback-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_column
+    .ipt_uif_column_inner.side_margin {
+    padding: 0px !important;
+  }
+
+  .ipt-uif-custom-material-pink.eform-override-element-boxy
+    .input-field.has-icon
+    > label.active {
+    font-size: 11px !important;
+  }
+
+  .callback-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_question
+    .ipt_uif_question_content {
+    margin-bottom: 1px;
+  }
+  .callback-form .ipt-uif-custom-material-pink button {
+    border-radius: 10px;
+    padding: 6px 30px !important;
+    font-size: 15px !important;
+    margin-top: 27px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form .ipt_uif_divider_text_inner {
+    font-size: 22px;
+  }
+  .contact-form input#ipt_fsqm_form_9_pinfo_15_value,
+  .contact-form input#ipt_fsqm_form_9_pinfo_2_value,
+  .contact-form input#ipt_fsqm_form_9_pinfo_3_value,
+  .contact-form input#ipt_fsqm_form_12_pinfo_15_value,
+  .contact-form input#ipt_fsqm_form_12_pinfo_2_value,
+  .contact-form input#ipt_fsqm_form_12_pinfo_3_value,
+  .contact-form input#ipt_fsqm_form_13_pinfo_15_value,
+  .contact-form input#ipt_fsqm_form_13_pinfo_2_value,
+  .contact-form input#ipt_fsqm_form_13_pinfo_3_value {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+  }
+  .contact-form
+    .feedback
+    .ipt-uif-custom-material-pink
+    textarea.materialize-textarea {
+    width: 100% !important;
+  }
+
+  .ipt-uif-custom-material-pink .ipt_uif_question > .ipt_uif_question_label {
+    margin-bottom: 2px;
+    font-size: 14px;
+  }
+
+  .virtual-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_question
+    label.ipt_uif_question_title {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .virtual-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_container
+    .ipt_uif_container_head
+    h3 {
+    font-size: 14px;
+  }
+
+  .virtual-form
+    .ipt-uif-custom-material-pink
+    .ipt-eform-material-button-container.ipt_fsqm_form_button_container.ipt_fsqm_form_button_container--classic
+    .eform-button-container-inner
+    .ui-button {
+    max-width: 127px !important;
+    padding: 6px 30px !important;
+    font-size: 15px !important;
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .virtual-form .ipt_uif_datepicker {
+    width: 100% !important;
+    margin-top: 0px !important;
+  }
+
+  .requestcall-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_question
+    label.ipt_uif_question_title {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .requestcall-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_container
+    .ipt_uif_container_head
+    h3 {
+    font-size: 14px;
+  }
+
+  .requestcall-form
+    .ipt-uif-custom-material-pink
+    .ipt-eform-material-button-container.ipt_fsqm_form_button_container.ipt_fsqm_form_button_container--classic
+    .eform-button-container-inner
+    .ui-button {
+    max-width: 127px !important;
+    padding: 6px 30px !important;
+    font-size: 15px !important;
+    margin-top: 30px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .carrer-form
+    .ipt-uif-custom-material-pink
+    .ipt_uif_question
+    label.ipt_uif_question_title {
+    font-size: 14px;
+  }
+
+  .carrer-form
+    .ipt-uif-custom-material-pink.type_0
+    .ipt-eform-content
+    .ipt-eform-material-button-container.ipt_fsqm_form_button_container {
+    margin: 0px;
+  }
+
+  .carrer-form
+    .ipt-uif-custom-material-pink
+    .ipt-eform-material-button-container.ipt_fsqm_form_button_container.ipt_fsqm_form_button_container--classic
+    .eform-button-container-inner
+    .ui-button {
+    font-size: 15px !important;
+  }
+
+  .virtual-form .ipt-uif-custom-material-pink.type_0 .ipt-eform-content {
+    background: #ebebeb !important;
+    border-radius: 20px !important;
+    max-width: 92% !important;
+    padding: 5px 10px !important;
+    margin: 50px auto 75px auto !important;
+  }
+
+  .rtl .carrer-form #ipt_fsqm_form_5_pinfo_10_value,
+  .rtl .carrer-form #ipt_fsqm_form_17_pinfo_10_value,
+  .rtl .carrer-form #ipt_fsqm_form_18_pinfo_10_value,
+  .rtl .carrer-form #ipt_fsqm_form_19_pinfo_10_value,
+  .rtl .carrer-form #ipt_fsqm_form_20_pinfo_10_value,
+  .rtl .carrer-form #ipt_fsqm_form_21_pinfo_10_value,
+  .rtl .carrer-form #ipt_fsqm_form_22_pinfo_10_value {
+    background: #fff !important;
+    /* display: none; */
+    padding: 2px 0px !important;
+    /* margin-top: 17px !important; */
+    width: 90% !important;
+    padding-left: 20px !important;
+    padding-right: 10px !important;
+  }
+}
